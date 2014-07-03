@@ -1,31 +1,32 @@
-body {
+.portfolio {
   margin: 0;
-  padding: 0;
+  padding: 30px;
   background: #e0e0e0;
   color: #000;
   font: 16px;
   line-height: 1.5;
   font-family: "Georgia", serif;
+  margin-top: -40px;
 }
 
 /* General & 'Reset' Stuff */
 
-.container {
+.portfolio .container {
   width: 95%;
   max-width: 100%;
   margin: 0 auto;
 }
 
-section {
+.portfolio section {
   display: block;
   margin: 0 0 20px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.portfolio h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 
-li {
+.portfolio li {
   line-height: 1.4 ;
 }
 
@@ -35,7 +36,7 @@ li {
    h2       - project description
 */
 
-header {
+.portfolio header {
   background: none;
   width: 100%;
   border-bottom: none;
@@ -43,7 +44,7 @@ header {
   margin: 0 0 0 0;
 }
 
-header h1 {
+.portfolio header h1 {
   font-size: 50px;
   line-height: 1.5;
   margin: 0 0 0 0;
@@ -57,18 +58,18 @@ header h1 {
   text-align: center;
 }
 
-header h1:before {
+.portfolio header h1:before {
     content: none;
     font-size: 24px;
 }
 
-header h2 {
+.portfolio header h2 {
   font-size: 18px;
   font-weight: 300;
   color: inherit;
 }
 
-#downloads .btn {
+.portfolio #downloads .btn {
   display: inline-block;
   text-align: center;
   margin: 0;
@@ -77,15 +78,15 @@ header h2 {
 /* Main Content
 */
 
-#main_content {
+.portfolio #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
-section img {
+.portfolio section img {
   max-width: 100%
 }
 
-h1, h2, h3, h4, h5, h6 {
+.portfolio h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: inherit;
   color: inherit;
@@ -95,45 +96,45 @@ h1, h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
-#main_content h1 {
+.portfolio #main_content h1 {
   font-size: 30px;
 }
 
-#main_content h2 {
+.portfolio #main_content h2 {
   font-size: 24px;
 }
 
-#main_content h3 {
+.portfolio #main_content h3 {
   font-size: 18px;
 }
 
-#main_content h4 {
+.portfolio #main_content h4 {
   font-size: 14px;
 }
 
-#main_content h5 {
+.portfolio #main_content h5 {
   font-size: 12px;
   text-transform: uppercase;
   margin: 0 0 5px 0;
 }
 
-#main_content h6 {
+.portfolio #main_content h6 {
   font-size: 12px;
   text-transform: uppercase;
   color: #999;
   margin: 0 0 5px 0;
 }
 
-dt {
+.portfolio dt {
   font-style: italic;
   font-weight: bold;
 }
 
-ul li {
+.portfolio ul li {
   list-style: inherit;
 }
 
-ul li:before {
+.portfolio ul li:before {
   content: normal;
   font-family: inherit;
   font-size: 13px;
@@ -143,13 +144,13 @@ ul li:before {
   line-height: 16px;
 }
 
-blockquote {
+.portfolio blockquote {
   color: #aaa;
   padding-left: 10px;
   border-left: 1px dotted #666;
 }
 
-pre {
+.portfolio pre {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
@@ -163,22 +164,22 @@ pre {
   overflow-y: hidden;
 }
 
-table {
+.portfolio table {
   width: 100%;
   margin: 0 0 20px 0;
 }
 
-th {
+.portfolio th {
   text-align: left;
   border-bottom: 1px dashed #b5e853;
   padding: 5px 10px;
 }
 
-td {
+.portfolio td {
   padding: 5px 10px;
 }
 
-hr {
+.portfolio hr {
     border-bottom: 1px solid rgba(0,0,0,0.15);
     margin-top: 1em;
     margin-bottom: 1.5em;
@@ -187,7 +188,7 @@ hr {
 /* Buttons
 */
 
-.btn {
+.portfolio .btn {
   display: inline-block;
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
   padding: 8px 18px;
@@ -204,11 +205,11 @@ hr {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
-.btn:hover {
+.portfolio .btn:hover {
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
 
-.btn .icon {
+.portfolio .btn .icon {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -216,7 +217,7 @@ hr {
   float: left;
 }
 
-.btn-github .icon {
+.portfolio .btn-github .icon {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
@@ -225,28 +226,28 @@ hr {
    a, a:hover, a:visited
 */
 
-a {
+.portfolio a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 /* Clearfix */
 
-.cf:before, .cf:after {
+.portfolio .cf:before, .cf:after {
   content:"";
   display:table;
 }
 
-.cf:after {
+.portfolio .cf:after {
   clear:both;
 }
 
-.cf {
+.portfolio .cf {
   zoom:1;
 }
 
 /* Layered Paper */
-.layered-paper {
+.portfolio .layered-paper {
     background: #fff;
     box-shadow:
         0 0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
@@ -257,6 +258,6 @@ a {
     padding: 30px;
 }
 
-body {
-    padding: 30px;
+.portfolio {
+
 }
