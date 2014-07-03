@@ -245,3 +245,20 @@ a {
 .cf {
   zoom:1;
 }
+
+.img-circular {
+    width: 250px;
+    height: 250px;
+    background-image: url('../images/joe.jpg');
+    background-size: cover;
+    display: block;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+}
+
+.img-profile {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
