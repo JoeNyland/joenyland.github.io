@@ -74,6 +74,17 @@ header h2 {
   margin: 0;
 }
 
+#nav .btn {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+
+#nav .btn.active {
+    color: #f4851f;
+}
+
 /* Main Content
 */
 
