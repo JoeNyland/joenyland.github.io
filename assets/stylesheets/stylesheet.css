@@ -262,7 +262,6 @@ a {
   zoom:1;
 }
 
-
 /* Custom */
 .img-profile-circular {
     width: 250px;
@@ -279,4 +278,79 @@ a {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Layered Paper */
+.paper-pad {
+    background: #fff;
+    box-shadow:
+        0 0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+        0 10px 0 -5px #fff, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #fff, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+    padding: 30px;
+}
+
+/* "Clean layout" used for CV and Portfolio pages */
+.clean-layout {
+    margin: -40px 0 0 0;
+    padding: 30px;
+    background: #e0e0e0;
+    color: #000;
+    font-family: "Georgia", serif;
+}
+
+.clean-layout .container {
+    width: 95%;
+    max-width: 100%;
+}
+
+.clean-layout header {
+    background: none;
+    border-bottom: none;
+    margin: 0 0 0 0;
+}
+
+.clean-layout header h1 {
+    font-size: 50px;
+    margin: 0 0 0 0;
+    font-family: inherit;
+    color: #000;
+    text-shadow: none;
+    text-align: center;
+}
+
+.clean-layout header h1:before {
+    content: none;
+}
+
+.clean-layout header h2 {
+    color: inherit;
+}
+
+.clean-layout h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    color: inherit;
+}
+
+.clean-layout dt {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.clean-layout ul li {
+    list-style: inherit;
+}
+
+.clean-layout ul li:before {
+    content: normal;
+    font-family: inherit;
+    color: inherit;
+}
+
+.clean-layout hr {
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    margin-top: 1em;
+    margin-bottom: 1.5em;
 }
