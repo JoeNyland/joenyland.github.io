@@ -329,9 +329,12 @@ a {
     color: inherit;
 }
 
-.clean-layout h1, h2, h3, h4, h5, h6 {
+.clean-layout h1, .clean-layout h2, .clean-layout h3, .clean-layout h4, .clean-layout h5, .clean-layout h6 {
     font-family: inherit;
     color: inherit;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(104, 182, 255, 0.1),
+    0 0 10px rgba(104, 182, 255, 0.1);
 }
 
 .clean-layout dt {
