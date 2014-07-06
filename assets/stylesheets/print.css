@@ -1,0 +1,14 @@
+@media print {
+    .no-print, .no-print *, header, #nav {
+        display: none !important;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    ul {
+        margin-top: inherit;
+    }
+
+}
