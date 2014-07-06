@@ -14,6 +14,12 @@
         margin-top: inherit;
     }
 
+    /* Reset .subtle links to default style */
+    a.subtle {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
     /* Custom */
     .center {
         text-align: center;
