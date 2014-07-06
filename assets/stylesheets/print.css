@@ -1,14 +1,23 @@
 @media print {
+    /* Hide some classes and IDs by default */
     .no-print, .no-print *, header, #nav {
         display: none !important;
     }
 
+    /* Set the default font size */
     body {
         font-size: 10px;
     }
 
+    /* Remove the extra space before <ul>'s */
     ul {
         margin-top: inherit;
+    }
+
+    /* Reset links to default style */
+    a {
+        color: inherit;
+        text-decoration: inherit;
     }
 
     .center {
