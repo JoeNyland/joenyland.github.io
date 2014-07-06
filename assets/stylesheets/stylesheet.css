@@ -158,6 +158,11 @@ blockquote {
   color: #aaa;
   padding-left: 10px;
   border-left: 1px dotted #666;
+  font-style: italic;
+}
+
+blockquote:before, blockquote:after {
+    content: '"';
 }
 
 pre {
