@@ -16,14 +16,14 @@
 
     /* Reset .subtle links to default style */
     a.subtle {
-        color: inherit;
+        color:           inherit;
         text-decoration: inherit;
     }
 
     /* Custom */
     .center {
-        text-align: center;
-        margin-left: auto;
+        text-align:   center;
+        margin-left:  auto;
         margin-right: auto;
     }
 
