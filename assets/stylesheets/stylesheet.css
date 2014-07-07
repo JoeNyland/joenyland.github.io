@@ -361,6 +361,10 @@ a {
     -moz-border-radius:    50px;
 }
 
+header .img-profile-circular-sm {
+    margin-top: 15px;
+}
+
 .center {
     text-align: center;
     margin:     auto;
