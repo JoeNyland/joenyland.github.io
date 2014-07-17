@@ -365,6 +365,10 @@ header .img-profile-circular-sm {
     margin-top: 15px;
 }
 
+section#main_content .img-profile-circular {
+    margin-bottom: 1em;
+}
+
 .center {
     text-align: center;
     margin:     auto;
