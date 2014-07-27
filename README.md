@@ -1,4 +1,4 @@
 masterroot24.github.io
 ======================
 
-My GitHub Pages website.
+My personal website using GitHub Pages.
