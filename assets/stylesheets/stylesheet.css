@@ -6,6 +6,7 @@ body {
     font:        16px;
     line-height: 1.5;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 16px;
 }
 
 /* General & 'Reset' Stuff */
@@ -402,4 +403,19 @@ section#main_content .img-profile-circular {
 img.logo {
     max-width: 25%;
     padding:   20px;
+}
+
+/* Custom stuff for the CV page */
+a.cv_button {
+    background:  #151515 url("../images/bkg.png") 0 0;
+    color:       #eaeaea;
+}
+
+a.cv_button:hover {
+    text-decoration: none;
+}
+
+a#cv_print {
+    position: absolute;
+    right: 60px;
 }
