@@ -1,7 +1,7 @@
 body {
     margin:      0;
     padding:     0;
-    background:  #151515 url("../images/bkg.png") 0 0;
+    background:  #151515 url("../img/bkg.png") 0 0;
     color:       #eaeaea;
     font:        16px;
     line-height: 1.5;
@@ -237,7 +237,7 @@ hr {
 
 .btn-github .icon {
     opacity:    0.6;
-    background: url("../images/blacktocat.png") 0 0 no-repeat;
+    background: url("../img/blacktocat.png") 0 0 no-repeat;
 }
 
 /* Links
@@ -346,7 +346,7 @@ a {
 .img-profile-circular {
     width:                 250px;
     height:                250px;
-    background-image:      url('../images/joe.jpg');
+    background-image:      url('../img/joe.jpg');
     background-size:       cover;
     display:               block;
     border-radius:         125px;
@@ -407,7 +407,7 @@ img.logo {
 
 /* Custom stuff for the CV page */
 a.cv_button {
-    background:  #151515 url("../images/bkg.png") 0 0;
+    background:  #151515 url("../img/bkg.png") 0 0;
     color:       #eaeaea;
 }
 
