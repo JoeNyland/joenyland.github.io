@@ -7,22 +7,14 @@
         <h2><code>root@joes-head:~# cat /dev/urandom</code></h2>
 
         <section id="nav">
-            {% if page.title == 'Home' %}
-                <a class="btn active" href="../">Home</a>
-            {% else %}
-                <a class="btn" href="../">Home</a>
-            {% endif %}
-
-            {% for p in site.pages %}
-            {% if p.layout != 'none' %}
-            {% if p.title != 'Home' %}
-                {% if page.url == p.url %}
-                    <a href="{{ p.url }}" class="btn active">{{ p.title }}</a>
-                {% else %}
-                    <a href="{{ p.url }}" class="btn">{{ p.title }}</a>
+            {% for weight in (1..10) %}
+                {% for p in site.pages %}
+                {% if p.weight == weight %}
+                    <a class="btn{% if p.url == page.url %} active{% endif %}" href="{{ p.url }}">
+                    {{ p.title }}
+                    </a>
                 {% endif %}
-            {% endif %}
-            {% endif %}
+                {% endfor %}
             {% endfor %}
         </section>
     </div>
