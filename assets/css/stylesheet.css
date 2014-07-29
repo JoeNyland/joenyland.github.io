@@ -423,3 +423,8 @@ a#cv_print {
 iframe.center {
     display: block
 }
+
+.post {
+    width:  90%;
+    margin: auto;
+}
