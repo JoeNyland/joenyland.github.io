@@ -1,0 +1,14 @@
+---
+layout: page
+title: Blog
+weight: 2
+---
+
+<div class="container">
+<h2>Recent posts</h2>
+<ul>
+{% for post in site.posts offset: 0 limit: 10  %}
+<li>{{ post.date | date_to_long_string }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+</div>
