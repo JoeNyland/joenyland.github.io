@@ -16,8 +16,16 @@
     <link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/img/apple-touch-icon-144x144.png' | prepend: site.baseurl }}"/>
     <link rel="apple-touch-icon" sizes="152x152" href="{{ '/assets/img/apple-touch-icon-152x152.png' | prepend: site.baseurl }}"/>
 
-    <link rel="stylesheet" href="{{ '/assets/css/stylesheet.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/assets/css/pygment_trac.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | prepend: site.baseurl }}">
+    {% if page.css %}
+        {% if page.css-before == true %}
+            <link rel="stylesheet" href="{{ page.css }}">
+            {% include css.html %}
+        {% else %}
+            {% include css.html %}
+            <link rel="stylesheet" href="{{ page.css }}">
+        {% endif %}
+    {% else %}
+        {% include css.html %}
+    {% endif %}
 
 </head>
