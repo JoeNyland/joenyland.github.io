@@ -2,8 +2,8 @@
 title: JoeNyland.me
 email: contact@joenyland.me
 description: ""
-baseurl: "/"
-url: "http://joenyland.me"
+baseurl: ""
+url: "http://joenyland.me/"
 github_username:  joenyland
 
 # Build settings
