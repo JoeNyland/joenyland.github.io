@@ -9,3 +9,11 @@ github_username:  joenyland
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'post'
+    values:
+      category: 'blog'
