@@ -419,3 +419,7 @@ a#cv_print {
     position: absolute;
     right: 60px;
 }
+
+iframe.center {
+    display: block
+}
