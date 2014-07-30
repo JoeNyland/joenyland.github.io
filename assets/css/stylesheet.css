@@ -373,6 +373,7 @@ section#main_content .img-profile-circular {
 .center {
     text-align: center;
     margin:     auto;
+    display: block
 }
 
 .right {
@@ -418,10 +419,6 @@ a.cv_button:hover {
 a#cv_print {
     position: absolute;
     right: 60px;
-}
-
-iframe.center {
-    display: block
 }
 
 .post {
