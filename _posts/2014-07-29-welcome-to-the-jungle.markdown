@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to the jungle!"
 date:   2014-07-29 23:39:33
-categories: 
+categories: blog
 ---
 
 This is my first blog post :p
