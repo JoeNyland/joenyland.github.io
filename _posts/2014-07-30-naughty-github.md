@@ -14,7 +14,7 @@ Now, with GitHub holding my code, I can't help but ignore [Gists](https://gist.g
 
 > Gist is a simple way to share snippets and pastes with others. All gists are Git repositories, so they are automatically versioned, forkable and usable from Git.
 
-Now, that's gone right up my flagpole, that has!
+Now, that's gone [right up my flagpole][1]{:target="_blank"}, that has!
 
 So, once again, I'm uploading pretty much all of the little notes, scripts and code snippets to GitHub, in the form of Gists.
 
@@ -75,3 +75,5 @@ I thought I'd have a moan to GitHub about this, and here's the reply I got from 
 > James
 
 A speedy reply! But we'll see...
+
+[1]: http://youtu.be/nMgqanHjRX8?t=3m30s
