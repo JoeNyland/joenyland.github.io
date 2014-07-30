@@ -14,13 +14,15 @@ Now, with GitHub holding my code, I can't help but ignore [Gists](https://gist.g
 
 > Gist is a simple way to share snippets and pastes with others. All gists are Git repositories, so they are automatically versioned, forkable and usable from Git.
 
-Now, that's gone right up my flagpole!
+Now, that's gone right up my flagpole, that has!
 
-So, once again, I'm uploading pretty much all of the little notes, scripts and code snippets to GitHub, in the form of Gists. But you'd think a "well-thought-out" organisation like GitHub would be able to get simple mobile web development right, wouldn't you?
+So, once again, I'm uploading pretty much all of the little notes, scripts and code snippets to GitHub, in the form of Gists.
+
+But, you'd think a "well-thought-out" organisation like GitHub would be able to get simple mobile web development right, wouldn't you?
 
 <span class="center">![Screenshot]({{ '/assets/attachments/gist-ios-bookmark.png' | prepend: site.baseurl }})</span>
 
-After taking a look at the `<head>` section of the HTML for the Gists site, they aren't event defining an 'Apple tough icon'...
+After taking a look at the `<head>` section of the HTML for the Gists site, they aren't event defining an 'Apple touch icon'...
 
 {% highlight html linenos %}
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
@@ -51,3 +53,25 @@ After taking a look at the `<head>` section of the HTML for the Gists site, they
 What year is this???
 
 I'll still be using GitHub and Gists, though :D
+
+Update
+======
+
+I thought I'd have a moan to GitHub about this, and here's the reply I got from them:
+
+> From: "James Dennes (GitHub Staff)" <support@github.com>
+> 
+> Subject: Re: No apple-touch-icon for Gists site
+> 
+> Date: 30 July 2014 14:15:31 BST
+> 
+> To: Joe Nyland
+> 
+> Hi Joe,
+> 
+> Thanks for the feedback. I'll open an internal issue to have this fixed.
+> 
+> Cheers,
+> James
+
+A speedy reply! But we'll see...
