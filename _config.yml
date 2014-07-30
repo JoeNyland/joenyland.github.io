@@ -9,3 +9,4 @@ github_username:  joenyland
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: pygments
