@@ -3,38 +3,35 @@ layout: default
 title: Home
 weight: 1
 ---
+<section id="main_content" class="container">
+    <h2>
+        <a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome to my
+        little website!</h2>
 
-<div class="home container">
+    <p>
+        You can check out my <a href="about/">about page</a> or take a look at my
+        <a href="https://github.com/MasterRoot24" target="_blank">GitHub profile</a>!
+    </p>
 
-    <section id="main_content">
-        <h2>
-            <a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome to my little website!</h2>
+    <p>
+        You can also have a look at my <a href="cv/">CV</a> and also <a href="portfolio/">my portfolio</a> of previous
+        work.
+    </p>
 
-        <p>
-            You can check out my <a href="about/">about page</a> or take a look at my
-            <a href="https://github.com/MasterRoot24" target="_blank">GitHub profile</a>!
-        </p>
+    <p>
+        If you want to get in touch, you can use the details found on my <a href="contact/">contact page</a>.
+    </p>
 
-        <p>
-            You can also have a look at my <a href="cv/">CV</a> and also <a href="portfolio/">my portfolio</a> of previous work.
-        </p>
+    <h2>Posts</h2>
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 
-        <p>
-            If you want to get in touch, you can use the details found on my <a href="contact/">contact page</a>.
-        </p>
-    </section>
-
-  <h2>Posts</h2>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">You can also subscribe to my site's feed <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
-
-</div>
+    <p class="rss-subscribe">You can also subscribe to my site's feed <a href="{{ " feed.xml" | prepend: site.baseurl }}">
+        via RSS</a>.</p>
+</section>
