@@ -343,7 +343,7 @@ a {
 }
 
 /* Custom */
-.img-profile-circular {
+.avatar {
     width:                 250px;
     height:                250px;
     background-image:      url('../img/joe.jpg');
@@ -354,7 +354,7 @@ a {
     -moz-border-radius:    125px;
 }
 
-.img-profile-circular-sm {
+.avatar-sm {
     width:                 100px;
     height:                100px;
     border-radius:         50px;
@@ -362,11 +362,11 @@ a {
     -moz-border-radius:    50px;
 }
 
-header .img-profile-circular-sm {
+header .avatar-sm {
     margin-top: 15px;
 }
 
-section#main_content .img-profile-circular {
+section#main_content .avatar {
     margin-bottom: 1em;
 }
 
