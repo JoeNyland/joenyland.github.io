@@ -1,9 +1,3 @@
-.center {
-    text-align: center;
-    margin:     auto;
-    display: block;
-}
-
 /* Avatar */
 .avatar {
     background-image:      url('../img/joe.jpg');
@@ -49,4 +43,9 @@
     border-radius:         125px;
     -webkit-border-radius: 125px;
     -moz-border-radius:    125px;
+}
+
+/* Misc */
+.center {
+    margin:     auto;
 }
