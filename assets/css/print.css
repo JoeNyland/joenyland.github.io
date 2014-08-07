@@ -1,6 +1,6 @@
 @media print {
     /* Hide some classes and IDs by default */
-    .no-print, .no-print *, header, #nav {
+    .no-print, .no-print *, #nav {
         display: none !important;
     }
 
