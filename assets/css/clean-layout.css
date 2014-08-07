@@ -1,4 +1,4 @@
-/* "Clean layout" used for CV and Portfolio pages */
+/* Clean layout used for CV */
 
 .paper-pad {
     background: #fff;
@@ -17,6 +17,11 @@
     background:  #e0e0e0;
     color:       #000;
     font-family: "Georgia", serif;
+}
+
+.clean-layout * {
+    text-transform: inherit;
+    font-size: 16px;
 }
 
 .clean-layout .container {
