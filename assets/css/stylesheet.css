@@ -50,18 +50,3 @@
     -webkit-border-radius: 125px;
     -moz-border-radius:    125px;
 }
-
-/* Custom stuff for the CV section */
-a.cv_button {
-    background:  #151515 url("../img/bkg.png") 0 0;
-    color:       #eaeaea;
-}
-
-a.cv_button:hover {
-    text-decoration: none;
-}
-
-a#cv_print {
-    position: absolute;
-    right: 60px;
-}
