@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>CV: Joe Nyland</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="../assets/css/cv.css" media="screen">
     <link rel="stylesheet" href="../assets/css/print.css" media="print">
 </head>
 <body class="cv">
     <div class="paper-pad">
+
+    <button style="position: fixed" class="btn btn-danger no-print" onclick="goBack()"><i class="fa fa-angle-left"></i>&nbsp;Back</button>
 
         <header class="center">
             <h1 class="title">CV</h1>
@@ -293,10 +297,16 @@
             <h2>References and Sample Work</h2>
             <ul>
                 <li>References are available on request from all above schools, colleges and employers.</li>
-                <li>Please also refer to some sample work in my <a href="../portfolio/">portfolio</a>.</li>
+                <li>Please also refer to some sample work in my <a href="../#portfolio">portfolio</a>.</li>
             </ul>
         </section>
 
     </div>
+    <script>
+        /* goBack() function */
+        function goBack() {
+            window.history.back()
+        }
+    </script>
 </body>
 </html>
