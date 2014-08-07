@@ -49,3 +49,11 @@
 .center {
     margin:     auto;
 }
+
+.intro {
+    background-image: none;
+}
+
+.shadow {
+    text-shadow:0px 2px 5px #000000;
+}
