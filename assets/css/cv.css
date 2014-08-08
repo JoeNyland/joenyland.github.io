@@ -72,3 +72,10 @@
     margin:     auto;
     display: block;
 }
+
+.cv #back {
+    position: fixed;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
