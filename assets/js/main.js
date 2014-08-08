@@ -29,10 +29,4 @@ $(document).ready(function () {
         window.history.back()
     }
 
-    /* Random Background Image */
-    var imagesArray = ["bg1.jpg", "bg2.jpg", "bg3.jpg"];
-    var num = Math.floor(Math.random() * imagesArray.length)
-    var url = 'url(assets/img/' + imagesArray[num] + ')';
-    $('.intro').css('background-image', url, 'no-repeat bottom center scroll')
-
 });
