@@ -1,7 +1,3 @@
-/**
- * Project: masterroot24.github.io
- */
-
 $(document).ready(function () {
 
     /* Add the current year to the footer */
