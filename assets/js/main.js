@@ -8,21 +8,4 @@ $(document).ready(function () {
     }
     $('#year').html(getYear());
 
-    /* Enable Bootstrap tooltips */
-    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-
-    /* Avatar Hover Zoom */
-    $("#about-avatar").hover(function () {
-            $(this).switchClass('avatar-md', 'avatar-lg');
-        },
-        function () {
-            $(this).switchClass('avatar-lg', 'avatar-md');
-        }
-    );
-
-    /* goBack() function */
-    function goBack() {
-        window.history.back()
-    }
-
 });
