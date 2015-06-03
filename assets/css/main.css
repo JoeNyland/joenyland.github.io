@@ -1,7 +1,6 @@
 /* Fonts */
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(//fonts.googleapis.com/css?family=Raleway:400,700);
 
 /* Colours
 
@@ -17,61 +16,6 @@ Light Grey: #DCDCDC
 
 */
 
-/* General Rules */
-body {
-    font-family: Raleway, sans-serif;
-}
-
 h1, h2, h3, nav {
     font-family: Montserrat, sans-serif;
-}
-
-/* Sticky Footer */
-html {
-    position: relative;
-    min-height: 100%;
-}
-body {
-    margin: 0 0 25px;
-    background-color: #fafafa;
-    color: #323232;
-}
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 25px;
-    width: 100%;
-    text-align: center;
-}
-
-/* Navigation */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-}
-
-nav li a {
-    text-decoration: none;
-    color: #fafafa;
-    background-color: #01BAEF;
-    padding: 20px;
-    border-radius: 10px;
-
-}
-
-nav li:first-of-type {
-    margin-right: 5px;
-}
-
-nav li:last-of-type {
-    margin-left: 5px;
-}
-
-nav li:not(:first-of-type):not(:last-of-type) {
-    margin: 0 5px;
 }
