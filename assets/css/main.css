@@ -1,5 +1,21 @@
+/* Fonts */
+
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(//fonts.googleapis.com/css?family=Raleway:400,700);
+
+/* Colours
+
+White: #f5f5f5
+Black: #2d2d2d
+
+Dark Blue:  #347FC4
+Light Blue: #01BAEF
+Light Red:  #F64740
+Dark Red:   #B14437
+Dark Grey:  #291F1E
+Light Grey: #DCDCDC
+
+*/
 
 html {
     color: #222;
