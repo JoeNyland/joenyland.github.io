@@ -48,19 +48,30 @@ footer {
 /* Navigation */
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
-nav li > a {
-    background-color: #01BAEF;
-    color: #fafafa;
+nav li a {
     text-decoration: none;
-    font-weight: bold;
+    color: #fafafa;
+    background-color: #01BAEF;
     padding: 20px;
     border-radius: 10px;
+
+}
+
+nav li:first-of-type {
+    margin-right: 5px;
+}
+
+nav li:last-of-type {
+    margin-left: 5px;
+}
+
+nav li:not(:first-of-type):not(:last-of-type) {
+    margin: 0 5px;
 }
