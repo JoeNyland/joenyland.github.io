@@ -17,10 +17,27 @@ Light Grey: #DCDCDC
 
 */
 
+/* General Rules */
 body {
     font-family: Raleway, sans-serif;
 }
 
 h1, h2, h3 {
     font-family: Montserrat, sans-serif;
+}
+
+/* Sticky Footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
