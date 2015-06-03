@@ -41,3 +41,14 @@ footer {
     height: 100px;
     width: 100%;
 }
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
