@@ -1,5 +1,6 @@
 /* Fonts */
 
+@import url(//fonts.googleapis.com/css?family=Raleway:400,700);
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /* Colours
@@ -16,6 +17,31 @@ Light Grey: #DCDCDC
 
 */
 
+* {
+    font-family: Raleway, sans-serif;
+}
+
 h1, h2, h3, nav {
     font-family: Montserrat, sans-serif;
 }
+
+/* Helpers */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
+body { padding-top: 70px; }
+
+.home .welcome {
+    margin-top:    20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+/* Sticky Footer */
+
