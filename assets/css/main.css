@@ -6,7 +6,7 @@
     font-family: Raleway, sans-serif;
 }
 
-h1, h2, h3, nav {
+h1, h2, h3, nav *, footer * {
     font-family: Montserrat, sans-serif;
 }
 
@@ -59,7 +59,6 @@ body {
 /* Nav bar customisations */
 .navbar-inverse .navbar-brand {
     color: #F64740;
-    font-weight: bold;
 }
 
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
