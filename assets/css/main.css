@@ -53,7 +53,25 @@ footer {
 }
 
 body {
-    background-color: #DCDCDC;
+    background-color: #fafafa;
+}
+
+/* Nav bar customisations */
+.navbar-inverse .navbar-brand {
+    color: #F64740;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #347FC4;
 }
 
 /* Helpers */
