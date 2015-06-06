@@ -1,19 +1,4 @@
-/* Colours
-
-White: #fafafa
-Black: #323232
-
-Dark Blue:  #347FC4
-Light Blue: #01BAEF
-Dark Red:   #B14437
-Light Red:  #F64740
-Dark Grey:  #291F1E
-Light Grey: #DCDCDC
-
-*/
-
 /* Fonts */
-
 @import url(//fonts.googleapis.com/css?family=Raleway:400,700);
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -25,12 +10,22 @@ h1, h2, h3, nav {
     font-family: Montserrat, sans-serif;
 }
 
+/* Colours */
+.white      { color: #fafafa }
+.black      { color: #323232 }
+.blue-dark  { color: #347FC4 }
+.blue-light { color: #01BAEF }
+.red-dark   { color: #B14437 }
+.red-light  { color: #F64740 }
+.grey-dark  { color: #291F1E }
+.grey-light { color: #DCDCDC }
+
 /* Main styles */
 
 /* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
 body { padding-top: 70px; }
 
-/* ToDo: Document what this is for */
+/* Adds some padding to the welcome message on the home page */
 .home .welcome {
     margin-top:    20px;
     margin-bottom: 20px;
@@ -55,6 +50,10 @@ footer {
     height: 30px;         /* This must match the margin-bottom of the body tag above */
     right: 15px;
     text-align: right;
+}
+
+body {
+    background-color: #DCDCDC;
 }
 
 /* Helpers */
