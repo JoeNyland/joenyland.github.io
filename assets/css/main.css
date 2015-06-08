@@ -25,8 +25,8 @@ h1, h2, h3, nav *, footer * {
 /* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
 body { padding-top: 70px; }
 
-/* Adds some padding to the welcome message on the home page */
-.home .welcome {
+/* Adds some padding to the avatar */
+.avatar {
     margin-top:    20px;
     margin-bottom: 20px;
 }
