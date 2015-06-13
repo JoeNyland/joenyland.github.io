@@ -73,6 +73,27 @@ body {
     color: #347FC4;
 }
 
+/* Client Company Logos */
+.logo {
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    right: 20px;
+    top: 3px;
+}
+.logo.nyland-construction {
+    background-image: url(http://nylandconstruction.co.uk/assets/img/favicon32.png);
+}
+
+.logo.trichema {
+    background-image: url(http://trichema.co.uk/assets/img/favicon-32x32.png);
+}
+
+.logo.la-maison {
+    background-image: url(http://la-maison.github.io/assets/img/favicon-32x32.png);
+}
+
 /* Helpers */
 .center {
     margin-left: auto;
