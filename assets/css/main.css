@@ -120,3 +120,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+footer a:hover {
+    text-decoration: none;
+}
