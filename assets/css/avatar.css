@@ -44,12 +44,3 @@
     -webkit-border-radius: 125px;
     -moz-border-radius:    125px;
 }
-
-/* Misc */
-.center {
-    margin:     auto;
-}
-
-.shadow {
-    text-shadow:0px 2px 5px #000000;
-}
