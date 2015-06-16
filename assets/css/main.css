@@ -115,6 +115,10 @@ body {
     background-image: url(../../portfolio/screenshots/lamaison-screenshot.png);
 }
 
+img.joe-in-the-office, img.joe-on-a-bike {
+    max-width:80%;
+}
+
 /* Helpers */
 .center {
     margin-left: auto;
