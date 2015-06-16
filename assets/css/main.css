@@ -73,6 +73,15 @@ body {
     color: #347FC4;
 }
 
+.navbar-inverse .navbar-nav>li>a.active {
+    color: #F64740;
+}
+
+.navbar-inverse .navbar-nav>li>a.active:hover {
+    color: #9d9d9d;
+    cursor: pointer;
+}
+
 /* Portfolio Client Company Logos */
 .logo {
     background-size: cover;
@@ -116,7 +125,15 @@ body {
 }
 
 img.joe-in-the-office, img.joe-on-a-bike {
-    max-width:80%;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    img.joe-in-the-office, img.joe-on-a-bike {
+        max-width: 75%;
+    }
 }
 
 /* Helpers */
