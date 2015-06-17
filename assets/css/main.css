@@ -21,9 +21,10 @@ h1, h2, h3, nav *, footer * {
 .grey-light { color: #DCDCDC }
 
 /* Main styles */
-
-/* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
-body { padding-top: 70px; }
+body {
+    font-size: 16px;
+    padding-top: 70px;/* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
+}
 
 /* Adds some padding to the avatar */
 .avatar {
