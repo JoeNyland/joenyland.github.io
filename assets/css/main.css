@@ -32,11 +32,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Hide the recent blog articles for now, as the blog is not online */
-.recent-blog-articles {
-    display: none;
-}
-
 /* Sticky Footer */
 html {
     position: relative;
