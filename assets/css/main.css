@@ -24,17 +24,13 @@ h1, h2, h3, nav *, footer * {
 body {
     font-size: 16px;
     padding-top: 70px;/* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
+    background-color: #fafafa;
 }
 
 /* Adds some padding to the avatar */
 .avatar {
     margin-top:    20px;
     margin-bottom: 20px;
-}
-
-/* Hide the recent blog articles for now, as the blog is not online */
-.recent-blog-articles {
-    display: none;
 }
 
 /* Sticky Footer */
@@ -51,10 +47,6 @@ footer {
     height: 30px;         /* This must match the margin-bottom of the body tag above */
     right: 15px;
     text-align: right;
-}
-
-body {
-    background-color: #fafafa;
 }
 
 /* Nav bar customisations */
