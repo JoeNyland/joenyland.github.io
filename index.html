@@ -96,11 +96,6 @@
         </div>
     </div>
     <div class="row recent-blog-articles">
-        <div class="col-md-4">
-            <h2><a href="http://blog.joenyland.me/2015/06/20/welcome-to-my-new-jekyll-blog.html">Welcome to my new Jekyll blog!</a></h2>
-            <p>I've decided to try to keep a blog of things that I face on my journey through life and I hope to find time to talk about the things that interest me most.</p>
-            <p><a class="btn btn-default" href="http://blog.joenyland.me/2015/06/20/welcome-to-my-new-jekyll-blog.html" role="button">View article &raquo;</a></p>
-        </div>
     </div>
 </div>
 
@@ -115,6 +110,11 @@
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+    $(document).ready(function() {
+        loadBlogPosts('http://blog.joenyland.me/posts.jsonp', $('.recent-blog-articles'));
+    });
+</script>
 
 <!-- Google Analytics code -->
 <script>
