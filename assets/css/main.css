@@ -104,6 +104,7 @@ footer {
     max-width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 .screenshot.nyland-construction {
     background-image: url(../../portfolio/screenshots/nylandconstruction-screenshot.png);
