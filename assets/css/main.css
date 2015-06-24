@@ -1,1 +1,156 @@
-@import url(//fonts.googleapis.com/css?family=Raleway:400,700);@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);body{font-family:Raleway, sans-serif;color:#323232}h1,h2,h3,nav *,footer *{font-family:Montserrat, sans-serif}html{position:relative;min-height:100%}html body{margin-bottom:30px}html footer{position:absolute;bottom:0;height:30px}body{font-size:16px;padding-top:70px;background-color:#fafafa}footer a:hover{text-decoration:none}.navbar-inverse .navbar-brand{color:#F64740}.navbar-inverse .navbar-brand:focus,.navbar-inverse .navbar-brand:hover{color:#fafafa}.navbar-inverse .navbar-nav li a{color:#347FC4}.navbar-inverse .navbar-nav li a.active{color:#F64740}.navbar-inverse .navbar-nav li a.active:hover{color:#9d9d9d;cursor:pointer}.navbar-inverse .navbar-nav li a:focus,.navbar-inverse .navbar-nav li a:hover{color:#fafafa}.center{margin-left:auto;margin-right:auto}.left{left:0;float:left}.right{right:0;float:right}.avatar{background-image:url("../img/joe.jpg");background-size:cover;display:block}.avatar-xs{width:50px;height:50px;border-radius:25px;-webkit-border-radius:25px;-moz-border-radius:25px}.avatar-sm{width:100px;height:100px;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px}.avatar-md{width:150px;height:150px;border-radius:75px;-webkit-border-radius:75px;-moz-border-radius:75px}.avatar-lg{width:200px;height:200px;border-radius:100px;-webkit-border-radius:100px;-moz-border-radius:100px}.avatar-xl{width:250px;height:250px;border-radius:125px;-webkit-border-radius:125px;-moz-border-radius:125px}.logo{background-size:cover;height:32px;width:32px;position:absolute;right:20px;top:3px}.logo.nyland-construction{background-image:url(http://nylandconstruction.co.uk/assets/img/favicon32.png)}.logo.trichema{background-image:url(http://trichema.co.uk/assets/img/favicon-32x32.png)}.logo.la-maison{background-image:url(http://la-maison.github.io/assets/img/favicon-32x32.png)}.screenshot{background-size:cover;height:128px;width:256px;max-width:100%;margin-top:20px;margin-bottom:20px;border-radius:3px}.screenshot.nyland-construction{background-image:url(../../portfolio/screenshots/nylandconstruction-screenshot.png)}.screenshot.trichema{background-image:url(../../portfolio/screenshots/trichema-screenshot.png)}.screenshot.la-maison{background-image:url(../../portfolio/screenshots/lamaison-screenshot.png)}img.joe-in-the-office,img.joe-on-a-bike{max-width:50%;margin-top:50px;margin-bottom:50px}@media screen and (max-width: 768px){img.joe-in-the-office,img.joe-on-a-bike{max-width:75%}}footer{right:15px;text-align:right}.avatar{margin-top:20px;margin-bottom:20px}
+/* Main styles */
+/* Colours */
+/* Fonts */
+@import url(//fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  font-family: Raleway, sans-serif;
+  color: #323232; }
+
+h1, h2, h3, nav *, footer * {
+  font-family: Montserrat, sans-serif; }
+
+/* Sticky Footer */
+html {
+  position: relative;
+  min-height: 100%; }
+  html body {
+    margin-bottom: 30px;
+    /* This must match the height of the footer tag below */ }
+  html footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    /* This must match the margin-bottom of the body tag above */ }
+
+/* Main styles */
+body {
+  font-size: 16px;
+  padding-top: 70px;
+  /* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
+  background-color: #fafafa; }
+
+footer a:hover {
+  text-decoration: none; }
+
+/* Bootstrap navbar customisations */
+.navbar-inverse .navbar-brand {
+  color: #F64740; }
+  .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #fafafa; }
+.navbar-inverse .navbar-nav li a {
+  color: #347FC4; }
+  .navbar-inverse .navbar-nav li a.active {
+    color: #F64740; }
+    .navbar-inverse .navbar-nav li a.active:hover {
+      color: #9d9d9d;
+      cursor: pointer; }
+  .navbar-inverse .navbar-nav li a:focus, .navbar-inverse .navbar-nav li a:hover {
+    color: #fafafa; }
+
+/* Helpers */
+.center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.left {
+  left: 0;
+  float: left; }
+
+.right {
+  right: 0;
+  float: right; }
+
+.avatar {
+  background-image: url("../img/joe.jpg");
+  background-size: cover;
+  display: block; }
+
+.avatar-xs {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px; }
+
+.avatar-sm {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px; }
+
+.avatar-md {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px; }
+
+.avatar-lg {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px; }
+
+.avatar-xl {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px; }
+
+/* Portfolio Client Company Logos */
+.logo {
+  background-size: cover;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 20px;
+  top: 3px; }
+
+.logo.nyland-construction {
+  background-image: url(http://nylandconstruction.co.uk/assets/img/favicon32.png); }
+
+.logo.trichema {
+  background-image: url(http://trichema.co.uk/assets/img/favicon-32x32.png); }
+
+.logo.la-maison {
+  background-image: url(http://la-maison.github.io/assets/img/favicon-32x32.png); }
+
+/* Portfolio Screenshots*/
+.screenshot {
+  background-size: cover;
+  height: 128px;
+  width: 256px;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+
+.screenshot.nyland-construction {
+  background-image: url(../../portfolio/screenshots/nylandconstruction-screenshot.png); }
+
+.screenshot.trichema {
+  background-image: url(../../portfolio/screenshots/trichema-screenshot.png); }
+
+.screenshot.la-maison {
+  background-image: url(../../portfolio/screenshots/lamaison-screenshot.png); }
+
+/* About page images */
+img.joe-in-the-office, img.joe-on-a-bike {
+  max-width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+@media screen and (max-width: 768px) {
+  img.joe-in-the-office, img.joe-on-a-bike {
+    max-width: 75%; } }
+footer {
+  right: 15px;
+  text-align: right; }
+
+.avatar {
+  margin-top: 20px;
+  margin-bottom: 20px; }
