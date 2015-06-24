@@ -1,0 +1,10 @@
+@mixin radius($pixels) {
+  border-radius:         $pixels;
+  -webkit-border-radius: $pixels;
+  -moz-border-radius:    $pixels;
+}
+
+@mixin square($pixels) {
+  width:  $pixels;
+  height: $pixels;
+}

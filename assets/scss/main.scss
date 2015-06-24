@@ -1,0 +1,24 @@
+/* Main styles */
+
+@import
+  "config",
+  "mixins",
+  "base",
+  "navbar",
+  "helpers",
+  "avatar",
+  "portfolio",
+  "about"
+;
+
+// Right align text in the footer
+footer {
+  right: 15px;
+  text-align: right;
+}
+
+// Adds some padding to the avatar
+.avatar {
+  margin-top:    20px;
+  margin-bottom: 20px;
+}

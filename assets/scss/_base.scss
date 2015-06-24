@@ -1,0 +1,34 @@
+/* Fonts */
+@import url(//fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  font-family: Raleway, sans-serif;
+  color: $black;
+}
+h1, h2, h3, nav *, footer * {
+  font-family: Montserrat, sans-serif;
+}
+
+/* Sticky Footer */
+html {
+  position:   relative;
+  min-height: 100%;
+  body {
+    margin-bottom: $footer_height; /* This must match the height of the footer tag below */
+  }
+  footer {
+    position: absolute;
+    bottom:   0;
+    height:   $footer_height; /* This must match the margin-bottom of the body tag above */
+  }
+}
+
+/* Main styles */
+body {
+  font-size: 16px;
+  padding-top: 70px; /* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
+  background-color: $white;
+}
+footer a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+/* Bootstrap navbar customisations */
+.navbar-inverse {
+  .navbar-brand {
+    color: $red-light;
+    &:focus,
+    &:hover {
+      color: $white;
+    }
+  }
+  .navbar-nav {
+    li {
+      a {
+        color: $blue-dark;
+        &.active {
+          color: $red-light;
+          &:hover {
+            color:  $grey-light;
+            cursor: pointer;
+          }
+        }
+        &:focus,
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}
