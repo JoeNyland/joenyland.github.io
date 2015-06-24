@@ -1,81 +1,57 @@
 /* CV Stylesheet */
+/* Colours */
+/* Helpers */
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.left {
+  text-align: left;
+  left: 0;
+  float: left; }
+
+.right {
+  text-align: right;
+  right: 0;
+  float: right; }
 
 .cv {
-    background:  #e0e0e0;
-    color:       #000;
-    font-family: "Georgia", serif;
-    padding:     2%;
-    line-height: 1.5;
-}
-
-.cv .paper-pad {
-    background: #fff;
-    box-shadow:
-    0 0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
-    0 10px 0 -5px #fff, /* The second layer */
-    0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
-    0 20px 0 -10px #fff, /* The third layer */
-    0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
-    padding:    5%;
-}
-
-.cv header h1 {
-    font-size:   50px;
-    text-align:  center;
-    margin:      0 0 0 0;
-}
-
-.cv h1, .cv h2, .cv h3, .cv h4, .cv h5, .cv h6 {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(104, 182, 255, 0.1),
-    0 0 10px rgba(104, 182, 255, 0.1);
-}
-
-.cv #body h1, .cv #body h2, .cv #body h3, .cv #body h4, .cv #body h5, .cv #body h6 {
-    font-weight: normal;
-    letter-spacing: -0.03em;
-}
-
-.cv hr {
+  background: #9d9d9d;
+  color: #323232;
+  font-family: "Georgia", sans-serif;
+  padding: 2%;
+  line-height: 1.5; }
+  .cv .paper-pad {
+    background: #fafafa;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #fafafa, 0 10px 1px -4px rgba(0, 0, 0, 0.15), 0 20px 0 -10px #fafafa, 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+    /* The third layer shadow */
+    padding: 5%; }
+  .cv header h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0 0 0 0; }
+  .cv h1, .cv h2, .cv h3, .cv h4, .cv h5, .cv h6 {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(104, 182, 255, 0.1), 0 0 10px rgba(104, 182, 255, 0.1); }
+  .cv hr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-    margin-top:    1em;
-    margin-bottom: 1.5em;
-}
-
-.cv dt {
-    font-style:  italic;
-    font-weight: bold;
-}
-
-.cv #body a {
+    margin-top: 1em;
+    margin-bottom: 1.5em; }
+  .cv dt {
+    font-style: italic;
+    font-weight: bold; }
+  .cv #body a {
     font-style: italic;
     color: #63c0f5;
     text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-    text-decoration: none;
-}
-
-.cv #body a.subtle {
-    color:           inherit;
-    text-decoration: inherit;
-    text-shadow:     0 1px 1px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(104, 182, 255, 0.1),
-    0 0 10px rgba(104, 182, 255, 0.1);
-}
-
-.cv #body a.subtle:hover {
-    color:       #63c0f5;
-    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-}
-
-.cv .center {
-    text-align: center;
-    margin:     auto;
-    display: block;
-}
-
-.cv #back {
-    position: fixed;
-    background: #fff;
-    border-radius: 5px;
-    padding: 10px;
-}
+    text-decoration: none; }
+    .cv #body a.subtle {
+      color: inherit;
+      text-decoration: inherit;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(104, 182, 255, 0.1), 0 0 10px rgba(104, 182, 255, 0.1); }
+      .cv #body a.subtle:hover {
+        color: #63c0f5;
+        text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
+  .cv #body h1, .cv #body h2, .cv #body h3, .cv #body h4, .cv #body h5, .cv #body h6 {
+    font-weight: normal;
+    letter-spacing: -0.03em; }

@@ -1,0 +1,24 @@
+@media print {
+  @import "helpers";
+  /* Hide some classes and IDs by default */
+  .no-print, .no-print *, #nav {
+    display: none !important;
+  }
+
+  /* Set the default font size */
+  body {
+    font-size: 10px;
+
+    /* Remove the extra space before <ul>'s */
+    ul {
+      margin-top: inherit;
+    }
+
+    /* Reset .subtle links to default style */
+    a.subtle {
+      color:           inherit;
+      text-decoration: inherit;
+    }
+  }
+
+}
