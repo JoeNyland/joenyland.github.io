@@ -2,11 +2,12 @@
 @import url(//fonts.googleapis.com/css?family=Raleway:400,700);
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
-  font-family: Raleway, sans-serif;
-  color: $black;
+  font-family: $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
 }
 h1, h2, h3, nav *, footer * {
-  font-family: Montserrat, sans-serif;
+  font-family: $header-font-family;
 }
 
 /* Sticky Footer */
@@ -25,7 +26,7 @@ html {
 
 /* Main styles */
 body {
-  font-size: 16px;
+  font-size: $base-font-size;
   padding-top: 70px; /* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
   background-color: $white;
 }

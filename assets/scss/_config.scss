@@ -1,12 +1,25 @@
-/* Colours */
-$white     : #fafafa;
-$black     : #323232;
+// Colours
+$white:              #fafafa;
+$black:              #323232;
+$blue-dark :         #347FC4;
+$blue-light:         #63c0f5;
+$red-dark  :         #B14437;
+$red-light :         #F64740;
+$grey-dark :         #291F1E;
+$grey-light:         #9d9d9d;
 
-$blue-dark : #347FC4;
-$blue-light: #63c0f5;
-$red-dark  : #B14437;
-$red-light : #F64740;
-$grey-dark : #291F1E;
-$grey-light: #9d9d9d;
+// Our variables
+$base-font-family:   Raleway, sans-serif;
+$header-font-family: Montserrat, sans-serif;
+$base-font-size:     16px;
+$base-line-height:   1.5;
+$small-font-size:    $base-font-size * 0.875;
+$spacing-unit:       30px;
+$text-color:         $black;
+$background-color:   $white;
+$footer_height:      30px;
 
-$footer_height: 30px;
+// Width of the content area
+$content-width:      800px;
+$on-tablet:          600px;
+$on-laptop:          800px;

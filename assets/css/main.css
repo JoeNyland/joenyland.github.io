@@ -1,11 +1,11 @@
 /* Main styles */
-/* Colours */
 /* Fonts */
 @import url(//fonts.googleapis.com/css?family=Raleway:400,700);
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
   font-family: Raleway, sans-serif;
-  color: #323232; }
+  color: #323232;
+  background-color: #fafafa; }
 
 h1, h2, h3, nav *, footer * {
   font-family: Montserrat, sans-serif; }
