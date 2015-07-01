@@ -11,7 +11,7 @@ $(document).ready(function () {
 });
 
 function loadBlogPosts(url, target_div, limit) {
-    // Default to a limit of 6 blog posts, unless it's overriden by the script calling this function
+    // Default to a limit of 6 blog posts, unless it's overridden by the script calling this function
     var limit = limit || 6;
 
     // First, get posts from the blog
