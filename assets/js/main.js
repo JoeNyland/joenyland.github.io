@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 function loadBlogPosts(url, target_div, limit) {
     // Default to a limit of 6 blog posts, unless it's overridden by the script calling this function
-    var limit = limit || 6;
+    limit = limit || 6;
 
     // First, get posts from the blog
     $.ajax({
@@ -29,7 +29,7 @@ function loadBlogPosts(url, target_div, limit) {
                     var post_div = document.createElement('div');       // Create a <div>
                     post_div.className = 'col-sm-4 col-md-4';                    // Set the class of the <div>
                     // Finally, add the post data into the <div>
-                    post_div.innerHTML = '<!--' + post_id + '--><h1><a href="' + post.url + '">' + post.title + '</a></h1>' +
+                    post_div.innerHTML = '<h1><a href="' + post.url + '">' + post.title + '</a></h1>' +
                         '<p>' + post.excerpt + '</p>' +
                         '<p><a class="btn btn-default" href="' + post.url + '" role="button">View article &raquo;</a></p>';
 
