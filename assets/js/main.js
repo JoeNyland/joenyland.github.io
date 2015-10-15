@@ -29,9 +29,9 @@ function loadBlogPosts(url, target_div, limit) {
                     var post_div = document.createElement('div');       // Create a <div>
                     post_div.className = 'col-sm-4 col-md-4';                    // Set the class of the <div>
                     // Finally, add the post data into the <div>
-                    post_div.innerHTML = '<h1><a href="' + post.url + '">' + post.title + '</a></h1>' +
+                    post_div.innerHTML = '<h4><a href="' + post.url + '">' + post.title + '</a></h4>' +
                         '<p>' + post.excerpt + '</p>' +
-                        '<p><a class="btn btn-default" href="' + post.url + '" role="button">View article &raquo;</a></p>';
+                        '<p><a class="btn btn-default" href="' + post.url + '" role="button">View post &raquo;</a></p>';
 
                     // Now, actually add our new <div> to the recent-blog-articles <div>
                     $(target_div).append(post_div);
