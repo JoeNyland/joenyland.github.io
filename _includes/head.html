@@ -25,9 +25,7 @@
     <meta name="msapplication-TileImage" content="{{ '/img/mstile-144x144.png' | prepend: site.assets | prepend: site.baseurl }}">
     <meta name="msapplication-config" content="{{ '/img/browserconfig.xml' | prepend: site.assets | prepend: site.baseurl }}">
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.assets | prepend: site.baseurl }}">
+    {% include css.html %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
