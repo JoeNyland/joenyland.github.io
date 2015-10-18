@@ -1,24 +1,25 @@
 # Site settings
-title: Joe Nyland
-email: contact@joenyland.me
+title: JoeNyland.me
 author: Joe Nyland
-description: "I'm a developer, geek, mountain biker and dog lover from Warrington, UK and this is my web site!"
+description: >
+  I'm a developer, geek, mountain biker and dog lover from Warrington, UK and this is my web site!
+blog:
+  description: >
+    Hey, I'm Joe Nyland and this is my blog!
+    I'll try to write about interesting things related to DevOps,
+    coding, SysAdmin and other things that interest me as I fumble
+    my way through life, laughing and learning along the way.
+    I can't guarantee that everything will be interesting, but I'll try!
 baseurl: ""
-blog_url: "http://blog.joenyland.me"
 url: "http://joenyland.me"
-twitter_username: JoeNyland
-github_username:  MasterRoot24
-exclude: ['README.md','LICENSE','CNAME','Gemfile','Gemfile.lock']
-assets: "/assets"
-nav_title: JoeNyland.me
-permalink: pretty
-
-# Build settings
-markdown: kramdown
-
+permalink: /blog/:title/
 gems:
+  - jekyll-feed
   - jekyll-sitemap
   - jemoji
 
+# Build settings
+exclude: ['README.md','LICENSE','CNAME','Gemfile','Gemfile.lock']
+markdown: kramdown
 sass:
-    style: compressed
+  style: compressed

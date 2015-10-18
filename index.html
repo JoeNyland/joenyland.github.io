@@ -1,8 +1,8 @@
 ---
 layout: page
 id: home
-scripts:
-  - src: home.js
+css:
+  - href: /assets/css/home.min.css
 ---
 
 <div class="container container-fluid">
@@ -15,7 +15,7 @@ scripts:
 
             <p>
                 Here, you'll find a little information <a href="about">about me</a> and what I do for a living, my
-                <a href="{{site.blog_url}}">blog</a> on all sorts of interesting (and also non-interesting)
+                <a href="/blog">blog</a> on all sorts of interesting (and also non-interesting)
                 stuff, my <a href="portfolio">portfolio</a> and information on where I am in the world and how to
                 <a href="contact">contact</a> me if you need to.
             </p>
@@ -27,6 +27,12 @@ scripts:
         </div>
     </div>
     <div class="row recent-blog-articles">
+        {% for post in site.posts limit:6 %}
+            <div class="col-sm-6 col-md-4 col-lg-3 post">
+                <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+                <p>{{post.excerpt}}</p>
+                <p><a class="btn btn-default" href="{{post.url}}" role="button">View post&nbsp;&raquo;</a></p>
+            </div>
+        {% endfor %}
     </div>
 </div>
-
