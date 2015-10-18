@@ -19,7 +19,7 @@ github_username:  MasterRoot24
 exclude: ['README.md','LICENSE','CNAME','Gemfile','Gemfile.lock']
 assets: "/assets"
 nav_title: JoeNyland.me
-permalink: /blog/:categories/:year/:month/:day/:title/
+permalink: /blog/:title/
 
 # Build settings
 markdown: kramdown
