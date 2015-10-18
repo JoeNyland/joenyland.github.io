@@ -3,6 +3,9 @@ layout: blog
 id: blog-post
 ---
 <div class="post">
+    <a class="btn btn-default btn-xs" href="/blog" role="button">&laquo; Back to the blog</a>
+
+    <h1>{{ page.title }}</h1>
 
     <header class="post-header">
         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -14,6 +17,7 @@ id: blog-post
 
     <div id="disqus_thread"></div>
 
+    <a class="btn btn-default btn-xs" href="/blog" role="button">&laquo; Back to the blog</a>
 </div>
 
 <script type="text/javascript">
