@@ -1,35 +1,20 @@
 ---
-layout: default
+layout: blog
 id: blog-post
 ---
+<div class="post">
 
-<div class="container container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-      <h1>{{ page.title }}</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-8">
-      <div class="post">
+    <header class="post-header">
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{%
+            endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
 
-        <header class="post-header">
-          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
+    <article class="post-content">
+        {{ content }}
+    </article>
 
-        <article class="post-content">
-          {{ content }}
-        </article>
+    <div id="disqus_thread"></div>
 
-        <div id="disqus_thread"></div>
-
-      </div>
-    </div>
-    <div class="col-md-4 site-description">
-      <div class="avatar avatar-md center"></div>
-      <p class="center">{{ site.blog.description }}</p>
-    </div>
-  </div>
 </div>
 
 <script type="text/javascript">
