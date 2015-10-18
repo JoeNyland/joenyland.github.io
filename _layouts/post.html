@@ -1,15 +1,46 @@
 ---
 layout: default
+id: blog-post
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<div class="container container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="post">
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+        <header class="post-header">
+          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
 
+        <article class="post-content">
+          {{ content }}
+        </article>
+
+        <div id="disqus_thread"></div>
+
+      </div>
+    </div>
+    <div class="col-md-4 site-description">
+      <div class="avatar avatar-md center"></div>
+      <p class="center">{{ site.blog.description }}</p>
+    </div>
+  </div>
 </div>
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES * * */
+  var disqus_shortname = 'joenyland-blog';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
