@@ -30,8 +30,11 @@ body {
   padding-top: 70px; /* Add padding for the fixed navbar (http://getbootstrap.com/components/#body-padding-required) */
   background-color: $white;
 }
-footer a:hover {
-  text-decoration: none;
+footer {
+  // Right align text in the footer
+  right: 15px;
+  text-align: right;
+  &:hover { text-decoration: none; }
 }
 
 /**
