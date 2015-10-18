@@ -1,4 +1,4 @@
 masterroot24.github.io
 ======================
 
-My personal website using GitHub Pages.
+My personal website and blog using Jekyll on GitHub Pages.
