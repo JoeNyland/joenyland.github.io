@@ -18,3 +18,9 @@
               0 20px 0 -10px $page_colour, /* The third layer */
               0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
 }
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
