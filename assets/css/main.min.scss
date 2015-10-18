@@ -26,3 +26,11 @@ footer {
 }
 
 h2 { margin-top: 50px; }
+
+.recent-blog-articles .post {
+  @media screen and (max-width: 768px) {
+    margin: 30px 0;
+    &:first-of-type { margin: 0 0 30px 0; }
+    &:last-of-type { margin: 30px 0 0 0; }
+  }
+}

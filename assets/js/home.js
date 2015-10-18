@@ -14,8 +14,8 @@ function loadBlogPosts(url, target_div, limit) {
                     var post = data[post_id];
 
                     // For each post, create a div and populate it with the information about the current blog post
-                    var post_div = document.createElement('div');       // Create a <div>
-                    post_div.className = 'col-sm-4 col-md-4';                    // Set the class of the <div>
+                    var post_div = document.createElement('div');            // Create a <div>
+                    post_div.className = 'col-sm-6 col-md-4 col-lg-3 post';  // Set the class of the <div>
                     // Finally, add the post data into the <div>
                     post_div.innerHTML = '<h4><a href="' + post.url + '">' + post.title + '</a></h4>' +
                         '<p>' + post.excerpt + '</p>' +
