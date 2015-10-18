@@ -1,3 +1,15 @@
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="{{ '/js/main.js' | prepend: site.assets }}"></script>
+<script src="{{ 'main.js' | prepend: '/js/' | prepend: site.assets | prepend: site.baseurl }}"></script>
+
+{% if page.scripts %}
+    {% for script in page.scripts %}
+        <script src="{{ script.src | prepend: '/js/' | prepend: site.assets | prepend: site.baseurl }}"></script>
+    {% endfor %}
+{% endif %}
+
+{% if page.external_scripts %}
+    {% for script in page.external_scripts %}
+        <script src="{{script.src}}"></script>
+    {% endfor %}
+{% endif %}
