@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ 'main.css' | prepend: '/css/' | prepend: site.assets | prepend: site.baseurl }}">
+
+{% if page.css %}
+    {% for stylesheet in page.css %}
+        <link rel="stylesheet" href="{{ stylesheet.href | prepend: '/css/' | prepend: site.assets | prepend: site.baseurl }}">
+    {% endfor %}
+{% endif %}
+
+{% if page.external_css %}
+    {% for stylesheet in page.external_css %}
+        <link rel="stylesheet" href="{{stylesheet.href}}">
+    {% endfor %}
+{% endif %}
+
