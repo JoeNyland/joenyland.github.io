@@ -10,6 +10,17 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+    // Should we try to load blog posts?
+    var blog_post_target_selector = $('.recent-blog-articles');
+    if(blog_post_target_selector.length) {
+        loadBlogPosts(
+            'http://blog.joenyland.me/posts.jsonp',
+            blog_post_target_selector
+        );
+    }
+});
+
 function loadBlogPosts(url, target_div, limit) {
     // Default to a limit of 6 blog posts, unless it's overridden by the script calling this function
     limit = limit || 6;

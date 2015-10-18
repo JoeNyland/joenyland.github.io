@@ -1,7 +1,8 @@
 # Site settings
 title: Joe Nyland
 email: contact@joenyland.me
-description:
+author: Joe Nyland
+description: "I'm a developer, geek, mountain biker and dog lover from Warrington, UK and this is my web site!"
 baseurl: ""
 blog_url: "http://blog.joenyland.me"
 url: "http://joenyland.me"
@@ -16,6 +17,5 @@ permalink: pretty
 markdown: kramdown
 
 gems:
-  - jekyll-feed
   - jekyll-sitemap
   - jemoji
