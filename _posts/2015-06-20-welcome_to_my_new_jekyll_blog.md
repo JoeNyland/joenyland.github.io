@@ -2,6 +2,8 @@
 layout: post
 title:  "Welcome to my new Jekyll blog!"
 excerpt: "I've decided to try to keep a blog of things that I face on my journey through life and I hope to find time to talk about the things that interest me most."
+redirect_from:
+  - /blog/2015/06/20/welcome_to_my_new_jekyll_blog/
 ---
 
 Hello, and welcome to my new blog!

@@ -2,6 +2,8 @@
 layout: post
 title:  "Running htop on Mac OS X needs root. Why?!"
 excerpt: "Why does htop on Mac OS need to run as root in order to show all the running processes and their stats?"
+redirect_from:
+  - /blog/2015/10/14/htop_on_osx/
 ---
 
 So, Mac OS X 10.11 came out a few days ago and I was keen to install and see 

@@ -2,6 +2,8 @@
 layout: post
 title:  "So, I'm using Jekyll to run my blog"
 excerpt: "I'm running my blog on the fabulous Jekyll framework! Here's why..."
+redirect_from:
+  - /blog/2015/06/22/so_im_using_jekyll_to_run_my_blog/
 ---
 
 I'm running the fabulous [Jekyll][jekyll] framework. If you've not already taken a look at

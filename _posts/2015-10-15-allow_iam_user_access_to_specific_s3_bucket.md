@@ -2,6 +2,8 @@
 layout: post
 title:  "Allow an IAM user access to an S3 bucket"
 excerpt: "You'd think it was easy to allow an IAM user access to a specific S3 bucket... Think again."
+redirect_from:
+  - /blog/2015/10/15/allow_iam_user_access_to_specific_s3_bucket/
 ---
 
 If you follow me on Twitter ([@JoeNyland][1]) you'll probably have noticed that I was banging my head against trying 
