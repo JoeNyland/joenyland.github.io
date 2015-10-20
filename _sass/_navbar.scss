@@ -15,7 +15,6 @@
           color: $red-light;
           &:hover {
             color:  $grey-light;
-            cursor: default;
           }
         }
         &:focus,
@@ -26,11 +25,3 @@
     }
   }
 }
-
-body#home      .navbar-nav li a#home,
-body#about     .navbar-nav li a#about,
-body#blog      .navbar-nav li a#blog,
-body#blog-post .navbar-nav li a#blog,
-body#portfolio .navbar-nav li a#portfolio,
-body#contact   .navbar-nav li a#contact
-{ color: $red-light; }
