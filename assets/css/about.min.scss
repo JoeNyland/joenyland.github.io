@@ -9,6 +9,8 @@ img.joe-in-the-office, img.joe-on-a-bike {
 
 @media screen and (max-width: 768px) {
   img.joe-in-the-office, img.joe-on-a-bike {
-    max-width: 75%;
+    max-width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
