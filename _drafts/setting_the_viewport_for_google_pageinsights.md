@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Setting the viewport tag for Google PageInsights"
-excerpt: "A note about how to correctly set the viewport meta tag for Google PageInsights"
+title:  "Setting the viewport tag for Google PageSpeed Insights"
+excerpt: "A note about how to correctly set the viewport meta tag for Google PageSpeed Insights"
 ---
 
-Recently, I was checking through [Google WebMaster Tools][1] for the sites that I manage and I noticed that a 
-PageInsight suggestion was flagged up for my site, telling that I need to set the Viewport for the site to be rendered 
-correctly on mobile devices.
+Recently, I was checking through [Google Webmaster Tools][1] for the sites that I manage and I noticed that a 
+PageSpeed Insights suggestion was flagged up for my site, telling me that I need to set the Viewport for the site to be 
+rendered correctly on mobile devices.
 
 > Configure the viewport
 >
@@ -16,14 +16,18 @@ on all devices.
 
 Now, I had the viewport tag already in the `<head>` of my site, in format:
 
+{% highlight html %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
+{% endhighlight %}
 
-However, the [Google documentation][2] on this showed the `name` attribute for the tag being set with no quotes, like 
-so:
+However, the [Google documentation][2] on this showed the `name` attribute for the tag being set with *no* quotes, 
+like so:
 
+{% highlight html %}
     <meta name=viewport content="width=device-width, initial-scale=1">
+{% endhighlight %}
 
-Technically, I know this is no different than the `meta` tag I was already using, but I decided to give it a go and it 
+Technically, I know this is no different than the `<meta>` tag I was already using, but I decided to give it a go and it 
 worked!
 
 I'm interested to find out why this is required. If you know why, please let me know in the comments below.
