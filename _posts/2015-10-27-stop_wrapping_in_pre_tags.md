@@ -13,9 +13,11 @@ As a result, code blocks were looking like this:
 
 I spent far too long on this. I thought it would be as easy as:
 
-    pre, code {
-        overflow-x: scroll;
-    }
+{% highlight scss %}
+pre, code {
+    overflow-x: scroll;
+}
+{% endhighlight %}
 
 But still lines were wrapped.
 
@@ -32,13 +34,15 @@ code and I know exactly what it's doing".
 
 So, the CSS that I used to fix this is:
 
-    // Make sure that <code> blocks in <pre> tags don't get wrapped.
-    // This is required as Bootstrap makes code blocks in pre wrap, for some reason....
-    pre > code {
-      overflow: auto;
-      word-wrap: normal;
-      white-space: pre;
-    }
+{% highlight scss %}
+// Make sure that <code> blocks in <pre> tags don't get wrapped.
+// This is required as Bootstrap makes code blocks in pre wrap, for some reason....
+pre > code {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+{% endhighlight %}
 
 I hope this saves someone from the nightmare I went through to achieve such a small task!
 

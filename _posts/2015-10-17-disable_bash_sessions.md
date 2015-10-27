@@ -11,28 +11,36 @@ that I could install Homebrew, RVM, etc. After a while, I realised that my Bash 
 
 I checked permissions on `~/.bash_history`:
 
-    joenyland@Joes-MBP ~ $ stat ~/.bash_history -c "%a %U %G"
-    600 joenyland staff
+{% highlight bash %}
+joenyland@Joes-MBP ~ $ stat ~/.bash_history -c "%a %U %G"
+600 joenyland staff
+{% endhighlight %}
 
 All looks good. Is the history file set correctly?
 
-    joenyland@Joes-MBP ~ $ echo $HISTFILE
-    /Users/joenyland/.bash_history
+{% highlight bash %}
+joenyland@Joes-MBP ~ $ echo $HISTFILE
+/Users/joenyland/.bash_history
+{% endhighlight %}
 
 Again, all looks good. I noticed a new folder in my home directory: `~/.bash_sessions` and this contains what looked to 
 be Bash history files with hashed file names:
 
-    joenyland@Joes-MBP ~ $ tree ~/.bash_sessions/
-    .bash_sessions/
-    ├── 005551F0-A695-4FF5-B04A-E39E163D176D.historynew
-    └── 87119D10-8A15-4AA0-A9A5-F9889436DD76.historynew
-    
-    0 directories, 2 files
+{% highlight bash %}
+joenyland@Joes-MBP ~ $ tree ~/.bash_sessions/
+.bash_sessions/
+├── 005551F0-A695-4FF5-B04A-E39E163D176D.historynew
+└── 87119D10-8A15-4AA0-A9A5-F9889436DD76.historynew
+
+0 directories, 2 files
+{% endhighlight %}
 
 Uncle Google lead me to find someone in the same boat as me: [here][1] and the solution was given [here][2]. Simply 
 put, "Bash sessions" can be disabled by simply running the following:
 
-    touch ~/.bash_sessions_disable
+{% highlight bash %}
+touch ~/.bash_sessions_disable
+{% endhighlight %}
     
 Then close your Terminal.app window and re-open to reload the Bash environment. As the [answer][2] suggests, that the 
 presence of the `~/.bash_sessions_disable` file (although empty) instructs Bash to disable the "sessions" feature and 

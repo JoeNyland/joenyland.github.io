@@ -34,16 +34,22 @@ This is a documented caveat with `htop` on OS X; it's mentioned in the install i
 Homebrew repo that after install (see [here][1]), you need to run `htop` as root to see all the processes. For some 
 time, the recommended workaround for this in the formula info was as follows:
 
-    sudo chown root:wheel $(which htop)/htop
-    sudo chmod u+s $(which htop)/htop
+{% highlight bash %}
+sudo chown root:wheel $(which htop)/htop
+sudo chmod u+s $(which htop)/htop
+{% endhighlight %}
 
 After that, `htop` can be run by simply typing:
 
-    htop
+{% highlight bash %}
+htop
+{% endhighlight %}
 
 However this was [changed fairly recently][2] to suggest that instead of the above, `htop` should be run with `sudo` instead:
 
-    sudo htop
+{% highlight bash %}
+sudo htop
+{% endhighlight %}
 
 I personally prefer the original workaround of setting the `setuid` bit on the `htop` binary, as this means I don't have 
 to setup a potentially messy Bash alias and I don't have to remember to run with `sudo` on Mac and without `sudo` on Linux. 
