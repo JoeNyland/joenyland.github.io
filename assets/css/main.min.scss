@@ -18,3 +18,10 @@
   margin-top:    35px;
   margin-bottom: 35px;
 }
+
+// Make sure that <code> blocks in <pre> tags don't get wrapped
+pre > code {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
