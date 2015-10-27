@@ -61,5 +61,5 @@ needed for htop to report on all processes on Mac OS X.
 If you have any questions, or if you care to enlighten me on why it's better to run `htop` as root through `sudo` on a 
 Mac, rather than the `setuid` method above, then please feel free to comment below! 
 
-[1]: https://github.com/Homebrew/homebrew/blob/299f8a27d17ce93c2c7dd8bb5719cd6a3152305e/Library/Formula/htop-osx.rb#L25
+[1]: https://github.com/Homebrew/homebrew/blob/299f8a27d17ce93c2c7dd8bb5719cd6a3152305e/Library/Formula/htop-osx.rb#L26-L28
 [2]: https://github.com/Homebrew/homebrew/commit/299f8a27d17ce93c2c7dd8bb5719cd6a3152305e#diff-f2c362f0cb7316d896279dd18daa4dbd
