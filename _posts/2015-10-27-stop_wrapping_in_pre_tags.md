@@ -36,7 +36,7 @@ So, the CSS that I used to fix this is:
 
 {% highlight scss %}
 // Make sure that <code> blocks in <pre> tags don't get wrapped.
-// This is required as Bootstrap makes code blocks in pre wrap, for some reason....
+// This is required as Bootstrap makes code blocks in pre wrap, for some reason...
 pre > code {
   overflow: auto;
   word-wrap: normal;
