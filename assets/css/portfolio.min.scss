@@ -53,4 +53,5 @@
     box-sizing: content-box;
   }
 }
+body,html{height:initial;width:initial;}  // Workaround for conflicting styles in GitHub Activity Widget stylesheet
 
