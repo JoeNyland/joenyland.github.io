@@ -42,16 +42,3 @@
 .screenshot.la-maison {
   background-image: url(/portfolio/screenshots/lamaison-screenshot.png);
 }
-
-// GitHub Activity Feed Widget styles and tweaks
-#github-feed {
-  margin-bottom: 20px;
-  & * {
-    // Required as Bootstrap sets everything to box-sizing:border-box and this breaks the styling of the widget
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-  }
-}
-body,html{height:initial;width:initial;}  // Workaround for conflicting styles in GitHub Activity Widget stylesheet
-
