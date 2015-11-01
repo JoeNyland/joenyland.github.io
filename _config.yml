@@ -16,7 +16,6 @@ permalink: /blog/:title/
 gems:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jemoji
 
 # Build settings

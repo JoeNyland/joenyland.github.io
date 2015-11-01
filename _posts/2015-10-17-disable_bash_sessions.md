@@ -2,8 +2,6 @@
 layout: post
 title:  "Disable Bash sessions"
 excerpt: "How to disable Bash sessions on Mac OS 10.11 El Capitan, because it's useless."
-redirect_from:
-  - /blog/2015/10/17/disable_bash_sessions/
 ---
 
 When I upgraded to OS X 10.11 El Capitan earlier this month, one of the first things I did was open up Terminal.app so 
