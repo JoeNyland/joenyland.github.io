@@ -5,7 +5,7 @@
 
     <title>{% if page.nav == 'blog' %}{{ page.title }} | Blog | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
     <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl }}">
     <link rel="apple-touch-icon" sizes="57x57" href="{{ '/assets/img/apple-touch-icon-57x57.png' | prepend: site.baseurl }}">
