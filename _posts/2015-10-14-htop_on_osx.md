@@ -33,8 +33,8 @@ Homebrew repo that after install (see [here][1]), you need to run `htop` as root
 time, the recommended workaround for this in the formula info was as follows:
 
 {% highlight bash %}
-sudo chown root:wheel $(which htop)/htop
-sudo chmod u+s $(which htop)/htop
+sudo chown root:wheel $(which htop)
+sudo chmod u+s $(which htop)
 {% endhighlight %}
 
 After that, `htop` can be run by simply typing:
