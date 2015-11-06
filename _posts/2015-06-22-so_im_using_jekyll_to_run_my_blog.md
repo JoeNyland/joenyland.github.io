@@ -7,7 +7,7 @@ excerpt: "I'm running my blog on the fabulous Jekyll framework! Here's why..."
 I'm running the fabulous [Jekyll][jekyll] framework. If you've not already taken a look at
 [Jekyll][jekyll], you should really check it out! This whole site is running on [GitHub Pages][github-pages] (for
 free, that's free as in free beer!) and is completely open source and available to be forked and contributed to on
-[GitHub][github] [here][github-repo].
+GitHub [here][github-repo].
 
 In the past, I've used and also supported the likes of [Wordpress][wordpress] and [Joomla][joomla] CMS systems for
 blogs and small ecommerce sites, but when I started using [GitHub][github] a few years back, I found that they provide
@@ -22,9 +22,9 @@ Better still, it would be great if you could [fork the repo][github-kb-fork], th
 [here][github-pr]. Thanks!
 
 [jekyll]:         http://jekyllrb.com
-[github-repo]:    https://github.com/MasterRoot24/blog
-[github-issues]:  https://github.com/MasterRoot24/blog/issues
-[github-pr]:      https://github.com/MasterRoot24/blog/pulls
+[github-repo]:    https://github.com/MasterRoot24/masterroot24.github.io
+[github-issues]:  https://github.com/MasterRoot24/masterroot24.github.io/issues
+[github-pr]:      https://github.com/MasterRoot24/masterroot24.github.io/pulls
 [github-kb-fork]: https://help.github.com/articles/fork-a-repo/
 [github-pages]:   https://pages.github.com
 [github]:         https://github.com
