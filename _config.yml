@@ -19,7 +19,7 @@ gems:
   - jemoji
 
 # Build settings
-exclude: ['README.md','LICENSE','CNAME','Gemfile','Gemfile.lock']
+exclude: ['README.md','LICENSE','CNAME','Gemfile','Gemfile.lock','vendor']
 markdown: kramdown
 sass:
   style: compressed
