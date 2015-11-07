@@ -1,10 +1,13 @@
 require 'html/proofer'
 
-task :test do
-  sh 'bundle exec jekyll build'
+task :test => [:build] do
   HTML::Proofer.new('./_site',{
                                  :only_4xx => true,
                                  :check_favicon => true,
-                                 :error_sort => true
+                                 :check_html => true
                              }).run
+end
+
+task :build do
+  system 'bundle exec jekyll build'
 end
