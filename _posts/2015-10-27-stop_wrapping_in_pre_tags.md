@@ -9,7 +9,7 @@ styling and I noticed that on mobile devices code in `<pre>` tags was being wrap
 
 As a result, code blocks were looking like this:
 
-![Screenshot ot the issue](https://cloud.githubusercontent.com/assets/7666402/10714950/3fa184d2-7afc-11e5-87d6-12f018dc4533.jpg)
+![Screenshot of the issue](https://cloud.githubusercontent.com/assets/7666402/10714950/3fa184d2-7afc-11e5-87d6-12f018dc4533.jpg)
 
 I spent far too long on this. I thought it would be as easy as:
 
