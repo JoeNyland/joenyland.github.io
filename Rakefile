@@ -1,6 +1,6 @@
 require 'html/proofer'
 
-task :default => :spec
+task :default => :test
 
 task :test => [:build] do
   HTML::Proofer.new('./_site',{
