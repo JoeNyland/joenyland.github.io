@@ -73,6 +73,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
+    jekyll-compose (0.4.1)
+      jekyll (>= 2.5.0)
     jekyll-feed (0.3.1)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
@@ -104,7 +106,6 @@ GEM
     mercenary (0.3.5)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    mr_poole (0.8.0)
     multipart-post (2.0.0)
     net-dns (0.8.0)
     nokogiri (1.6.7.2)
@@ -140,8 +141,8 @@ DEPENDENCIES
   github-pages (= 48)
   html-proofer
   jekyll
+  jekyll-compose
   json
-  mr_poole
   rake
 
 BUNDLED WITH
