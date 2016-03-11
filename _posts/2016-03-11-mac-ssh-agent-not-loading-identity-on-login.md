@@ -4,7 +4,9 @@ title: Mac SSH agent not loading identity on login
 excerpt: This has been annoying me for a while now, but I've been putting off investigating it. Until now...
 ---
 
-So, what's your :cow: ?
+So, what's your :cow2:?
+
+FYI: `(cow == beef) && (beef == problem)` :wink:
 
 For both work and my personal projects, I often use SSH agent forwarding. For those of you that don't know what this is,
 basically it means that your local SSH key is forwarded in a secure manner to the remote server that you're connecting
