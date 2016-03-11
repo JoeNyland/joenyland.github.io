@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mac SSH agent not loading private key on login
+title: Mac SSH agent not loading identity on login
 excerpt: This has been annoying me for a while now, but I've been putting off investigating it. Until now...
 ---
 
