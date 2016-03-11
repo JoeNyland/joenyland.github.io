@@ -11,5 +11,6 @@ task :test => [:build] do
 end
 
 task :build do
+  system 'bundle exec jekyll clean'
   system 'bundle exec jekyll build'
 end
