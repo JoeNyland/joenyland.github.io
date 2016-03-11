@@ -52,7 +52,7 @@ This problem plagued me for a while and I got so sick of it that I researched ho
 Uncle Google lead me to this Github help article [here][1] and specifically this [point][2]. As it say's adding the `-K`
 switch to `ssh-add` when you're loading your SSH identity, invokes Mac OS's Keychain functionality to securely load the
 key into memory on login. It's annoying that `ssh-add` on a Mac doesn't do this by default, but there's an argument for
-it not being the default too, I guess.
+it not being the default too, I guess. Some more info on the problem can be found [here][3] too.
 
 I hope this helps others that might come across this issue, but haven't spotted that note at the bottom of the Github
 help article. As always; any comments, queries or suggestions - bang them in the comments section below and I'll take a
@@ -60,3 +60,4 @@ look!
 
 [1]: https://developer.github.com/guides/using-ssh-agent-forwarding/
 [2]: https://developer.github.com/guides/using-ssh-agent-forwarding/#your-key-must-be-available-to-ssh-agent
+[3]: http://unix.stackexchange.com/questions/140075/ssh-add-is-not-persistent-between-reboots
