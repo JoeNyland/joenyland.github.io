@@ -10,7 +10,10 @@ task :test => [:build] do
                              }).run
 end
 
-task :build do
-  system 'bundle exec jekyll clean'
+task :build => [:clean] do
   system 'bundle exec jekyll build'
+end
+
+task :clean do
+  system 'bundle exec jekyll clean'
 end
