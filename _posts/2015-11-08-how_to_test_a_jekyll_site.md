@@ -35,6 +35,17 @@ task :clean do
 end
 {% endhighlight %}
 
+As we're using HTMLProofer, you'll need to make sure that you've installed the HTMLProofer gem manually, or preferably
+in your `Gemfile`, like so:
+
+{% highlight ruby %}
+group :test do
+  gem 'html-proofer', '~> 3'
+end
+{% endhighlight %}
+
+...and then run `bundle` to install the gem and it's dependencies.
+
 I'm also running [Travis CI][4] on my site's GitHub repo too. Whenever I push to my site's repo on GitHub, a build is 
 triggered on Travis automatically. That means that if I miss any issues in local testing before deploying any changes, 
 I get an email pinged across to me from Travis. Kind of like another set of eyes on the tests, if you will. Overkill? 
