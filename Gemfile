@@ -9,7 +9,7 @@ gem 'jekyll'
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '~> 3'
 end
 
 group :development, :test do

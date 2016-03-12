@@ -140,7 +140,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 58)
-  html-proofer
+  html-proofer (~> 3)
   jekyll
   jekyll-compose
   json
