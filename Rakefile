@@ -4,7 +4,6 @@ task :default => :test
 
 task :test => [:build] do
   HTMLProofer.check_directory('./_site',{
-                                 # :only_4xx => true,
                                  :check_favicon => true,
                                  :check_html => true
                              }).run
