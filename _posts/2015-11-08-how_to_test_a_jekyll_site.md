@@ -17,18 +17,21 @@ better than no tests, right?
 I've come up with the following Rakefile that I can use to test my site, pre-release:
 
 {% highlight ruby %}
-require 'html/proofer'
+require 'html-proofer'
 
 task :test => [:build] do
-  HTML::Proofer.new('./_site',{
-                                 :only_4xx => true,
+  HTMLProofer.check_directory('./_site',{
                                  :check_favicon => true,
                                  :check_html => true
                              }).run
 end
 
-task :build do
+task :build => [:clean] do
   system 'bundle exec jekyll build'
+end
+
+task :clean do
+  system 'bundle exec jekyll clean'
 end
 {% endhighlight %}
 
@@ -53,6 +56,10 @@ If you're using Jekyll for your sites or blogs and you're not already running so
 give this a go!
 
 As always, chime in below in the comments section with any feedback or issues.
+
+### Update 12/03/2016
+I've updated the Rake tasks in the code snippet above to work with HTMLProofer 3 which was recently released. The old
+code no longer worked with the latest versions of that gem.
 
 [1]: http://www.jacobtomlinson.co.uk/jekyll/2015/02/18/test-you-jekyll-blog-with-travis-ci/
 [2]: http://stackoverflow.com/questions/33582197/how-do-i-build-a-jekyll-site-from-rake-task-without-using-the-command-line
