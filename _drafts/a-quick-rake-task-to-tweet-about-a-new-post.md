@@ -5,7 +5,7 @@ excerpt: Here's a quick and easy Rake task to tweet when a new post is published
 ---
 
 I use [Twitter][1] a fair bit, so I like to fire a quick tweet out to my many (not) followers when I've published a new
-post. This task was a bit of a pain, so I thought I'd throw together a quick `Rake` task to do this for me.
+post :bird:. This task was a bit of a pain, so I thought I'd throw together a quick `Rake` task to do this for me.
 
 * To get this to work, you'll need to install the `twitter` gem manually or, by adding it to your `Gemfile`.
 * You'll also need to create config file that will store the API keys for the `twitter` gem to use to authenticate
