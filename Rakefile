@@ -19,6 +19,7 @@ task :clean do
   system 'bundle exec jekyll clean'
 end
 
+desc 'Tweet about a new post'
 task :tweet_link_to_last_post , [:title, :url] do |task,args|
 
   # Connect to the Twitter API
