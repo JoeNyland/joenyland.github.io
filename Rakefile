@@ -1,6 +1,5 @@
 require 'html-proofer'
 require 'twitter'
-require 'jekyll'
 
 task :default => :test
 
