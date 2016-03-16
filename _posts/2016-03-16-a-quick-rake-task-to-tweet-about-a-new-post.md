@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A quick rake task to tweet about a new post
+title: A quick Rake task to tweet about a new post
 excerpt: Here's a quick and easy Rake task to tweet when a new post is published
 ---
 
