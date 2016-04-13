@@ -1,0 +1,68 @@
+---
+layout: post
+title: Careful with your Git remote config
+excerpt: I thought I was being clever with my Git remote config
+---
+
+For some time, I had the following in my [`~/.gitconfig`][1]:
+
+{% highlight ini %}
+[remote "origin"]
+    prune = true
+{% endhighlight %}
+
+I like keeping my branches tidy on the projects I work on and the more developers that are working on a project, the
+more branches are getting created, merged and delted all the time. The above Git config means that every time you
+fetch, Git will prune remote branches automatically, just like it would if you used `git fetch --prune`. This worked
+great and I thought I was being clever! :bowtie:
+
+However, recently when I built the repositories for a few of my new projects (personal and work), I noticed that when
+I came to add the remote GitHub or BitBucket (I know, I know - we *have* to use BitBucket at work - it's bloody
+terrible!). As normal, I'd issue the following command to add the remote repo:
+
+{% highlight bash %}
+$ git remote add origin https://github.com/MasterRoot24/test.git
+{% endhighlight %}
+
+But this would throw the error:
+
+> `fatal: remote origin already exists.`
+
+Bugger! :angry:
+
+> Git (as always) wasn't lying either!
+
+I was puzzled for a while trying to work out why, on a newly created and blank repo, Git was complaining that an
+origin already existed. Git (as always) wasn't lying either!
+
+{% highlight bash %}
+$ mkdir test
+$ cd test
+$ git init
+$ git remote -v
+origin
+{% endhighlight %}
+
+Whilst the above configuration conveniently sets the configuration for a remote repository to always prune remote
+branches when fetching, having this set implies that a remote with the name `origin` already exists, hence the
+phantom `origin` in the above example shows up when listing remote repositories, even though technically is does not
+exist.
+
+> `fatal: remote origin already exists.`
+
+[Googling][2] for the error above yields many many suggestions for users to use the following:
+
+{% highlight bash %}
+$ git remote set-url origin https://github.com/MasterRoot24/test.git
+{% endhighlight %}
+
+But that doesn't really address the problem here. The real solution to that error is to remove the configuration at
+the top of the post from your Git config file (`.git/config` or `~/.gitconfig`), which is [just what I did][3] and the
+error went away!
+
+It's annoying that you can't set the default configuration for a remote that does not necessarily exist yet in your Git
+config, but hopefully this will be possible in a future version of Git.
+
+[1]: https://github.com/MasterRoot24/dotfiles/blob/master/home/.gitconfig
+[2]: https://www.google.co.uk/#q=fatal:+remote+origin+already+exists.
+[3]: https://github.com/MasterRoot24/dotfiles/commit/f2d9ea2fdfbb31c762ea3523d2a59c83735d406e
