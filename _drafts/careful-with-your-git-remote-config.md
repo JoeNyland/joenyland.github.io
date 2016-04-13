@@ -16,8 +16,8 @@ more branches are getting created, merged and delted all the time. The above Git
 fetch, Git will prune remote branches automatically, just like it would if you used `git fetch --prune`. This worked
 great and I thought I was being clever! :bowtie:
 
-However, recently when I built the repositories for a few of my new projects (personal and work), I noticed that when
-I came to add the remote GitHub or BitBucket (I know, I know - we *have* to use BitBucket at work - it's bloody
+However, recently when I built the repositories for a few of my new projects (personal and work), I noticed a problem
+when I came to add the remote GitHub or BitBucket (I know, I know - we *have* to use BitBucket at work - it's bloody
 terrible!). As normal, I'd issue the following command to add the remote repo:
 
 {% highlight bash %}
