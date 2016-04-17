@@ -63,6 +63,31 @@ error went away!
 It's annoying that you can't set the default configuration for a remote that does not necessarily exist yet in your Git
 config, but hopefully this will be possible in a future version of Git.
 
+#### Update 17/04/2015
+I've found a solution! :tada:
+
+Thanks to [Alberto Grespan's blog post][4] I found that you can set the default behaviour for `git fetch` to prune
+remote branches automatically with the following command:
+
+{% highlight bash %}
+git config fetch.prune true
+{% endhighlight %}
+
+Or the following in your Git config:
+
+{% highlight ini %}
+[fetch]
+  prune = true
+{% endhighlight %}
+
+I've [added this to my `~/.gitconfig`][5] and have been using it for the past few days and it works a treat!
+
+Moral of the story: Git is awesome!!! :metal:
+
+If this helps, please feel free to let me know in the comments section below!
+
 [1]: https://github.com/MasterRoot24/dotfiles/blob/master/home/.gitconfig
 [2]: https://www.google.co.uk/#q=fatal:+remote+origin+already+exists.
 [3]: https://github.com/MasterRoot24/dotfiles/commit/f2d9ea2fdfbb31c762ea3523d2a59c83735d406e
+[4]: http://albertogrespan.com/blog/always-prune-remote-tracking-branches/
+[5]: https://github.com/MasterRoot24/dotfiles/commit/5ba637fd18da75e9f159a7186c9a01a975b6bcab
