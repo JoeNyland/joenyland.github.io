@@ -1,0 +1,8 @@
+.blog {
+  img.app-load-balancer, img.vpc-screenshot, img.ec2-screenshot { max-height: 350px; display: block; margin: 0 auto; }
+  .post-content { h3 { margin-top: 1em; } }
+  .post-content {
+    .warn { color: brown; }
+    .success { color: darkgreen; }
+  }
+}
