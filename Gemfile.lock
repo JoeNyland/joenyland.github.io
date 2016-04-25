@@ -36,14 +36,14 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent (>= 2.7)
       net-http-pipeline
-    github-pages (73)
+    github-pages (75)
       RedCloth (= 4.2.9)
       github-pages-health-check (= 1.1.0)
       jekyll (= 3.0.4)
       jekyll-coffeescript (= 1.0.1)
       jekyll-feed (= 0.5.1)
       jekyll-gist (= 1.4.0)
-      jekyll-github-metadata (= 1.11.0)
+      jekyll-github-metadata (= 1.11.1)
       jekyll-mentions (= 1.1.2)
       jekyll-paginate (= 1.1.0)
       jekyll-redirect-from (= 0.10.0)
@@ -54,6 +54,7 @@ GEM
       jemoji (= 0.6.2)
       kramdown (= 1.10.0)
       liquid (= 3.0.6)
+      listen (= 3.0.6)
       mercenary (~> 0.3)
       rdiscount (= 2.1.8)
       redcarpet (= 3.3.3)
@@ -104,7 +105,7 @@ GEM
     jekyll-feed (0.5.1)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
-    jekyll-github-metadata (1.11.0)
+    jekyll-github-metadata (1.11.1)
       octokit (~> 4.0)
     jekyll-mentions (1.1.2)
       html-pipeline (~> 2.3)
@@ -130,7 +131,7 @@ GEM
     launchy (2.4.3)
       addressable (~> 2.3)
     liquid (3.0.6)
-    listen (3.1.1)
+    listen (3.0.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     memoizable (0.4.2)
@@ -138,7 +139,7 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    multi_json (1.11.2)
+    multi_json (1.11.3)
     multipart-post (2.0.0)
     naught (1.1.0)
     net-dns (0.8.0)
@@ -202,7 +203,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 73)
+  github-pages (= 75)
   html-proofer (~> 3)
   jekyll
   jekyll-compose
