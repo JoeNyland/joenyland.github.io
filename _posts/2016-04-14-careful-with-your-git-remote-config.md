@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Careful with your Git remote config
-excerpt: I thought I was being clever with my Git remote config
+excerpt: I thought I was being clever with my Git remote config.
 ---
 
 For some time, I had the following in my [`~/.gitconfig`][1]:

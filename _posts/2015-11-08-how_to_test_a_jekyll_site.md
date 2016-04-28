@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to test a Jekyll site"
-excerpt: "Testing is great, so you should test your site as well as your code"
+excerpt: "Testing is great, so you should test your site as well as your code."
 ---
 
 I've [already talked about][5] this site and it's blog being run on GitHub Pages and that I use Jekyll. I'm only human 

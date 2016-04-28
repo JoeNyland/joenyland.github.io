@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A quick Rake task to tweet about a new post
-excerpt: Here's a quick and easy Rake task to tweet when a new post is published
+excerpt: Here's a quick and easy Rake task to tweet when a new post is published.
 ---
 
 I use [Twitter][1] a fair bit, so I like to fire a quick tweet out to my many (not) followers when I've published a new

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting the viewport tag for Google PageSpeed Insights"
-excerpt: "A note about how to correctly set the viewport meta tag for Google PageSpeed Insights"
+excerpt: "A note about how to correctly set the viewport meta tag for Google PageSpeed Insights."
 ---
 
 Recently, I was checking through [Google Webmaster Tools][1] for the sites that I manage and I noticed that a 
