@@ -6,7 +6,8 @@ task :default => :test
 task :test => [:build] do
   HTMLProofer.check_directory('./_site',{
                                  :check_favicon => true,
-                                 :check_html => true
+                                 :check_html => true,
+                                 :allow_hash_href => true
                              }).run
 end
 
