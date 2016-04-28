@@ -5,4 +5,11 @@
     .warn { color: brown; }
     .success { color: darkgreen; }
   }
+  img#git-lfs-graphic {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px auto 40px auto;
+    display: block
+  }
 }
