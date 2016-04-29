@@ -7,7 +7,8 @@ excerpt: A word of warning, if you'd like to use Git LFS with GitHub Pages.
 [Recently][git-lfs-tweet], I decided to take another look at [Git LFS][git-lfs]. I was blown away by the simplicity of
 the extension to the already awesome Git VCS but also the ease of use of GitHub's implementation of the feature.
 
-<img id="git-lfs-graphic" src="/assets/img/posts/github-pages-with-git-lfs/git-lfs-graphic.gif" />
+<img id="git-lfs-graphic" src="/assets/img/posts/github-pages-with-git-lfs/git-lfs-graphic.gif"
+     alt="A diagram showing how Git LFS works"/>
 
 Git LFS allows you to store large like binary files, assets and other files that you don't want to clog up a Git repo
 and store them on a storage network like the one provided by [GitHub][github]. You can get a bit more of an
