@@ -20,6 +20,8 @@ my own Bash completion?" That's just what I did!
 Here we have it! :tada:
 
 <script src="https://gist.github.com/MasterRoot24/10f692638ff6975bbc2550b4a37c561e.js"></script>
+<noscript><p><a href="https://gist.github.com/MasterRoot24/10f692638ff6975bbc2550b4a37c561e" target="_blank">Click here</a> to view 
+the <a href="https://gist.github.com" target="_blank">Gist</a>.</p></noscript>
 
 This is my first Bash completion script that I've written. Previous to this, I had no idea how packages allowed you to
 tab complete stuff so this was a really interesting exercise to find out how it's done, whilst doing something useful
