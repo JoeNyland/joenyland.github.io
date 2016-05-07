@@ -21,7 +21,7 @@ Here we have it! :tada:
 
 <script src="https://gist.github.com/MasterRoot24/10f692638ff6975bbc2550b4a37c561e.js"></script>
 
-This is my first Bash completion script that I've written. Previous to this, I had no idea how pacakages allowed you to
+This is my first Bash completion script that I've written. Previous to this, I had no idea how packages allowed you to
 tab complete stuff so this was a really interesting exercise to find out how it's done, whilst doing something useful
 at the same time!
 
