@@ -34,7 +34,7 @@ task :tweet_link_to_post , [:title, :url] do |task,args|
 
   # Confirm the message with the user to make sure they're happy with it
   puts 'This is the message that will be tweeted:'
-  puts message = "I just published a blog post: “#{args['title']}” Check it out here: #{args['url']}"
+  puts message = "I just published a blog post: “#{args['title']}”. Check it out here: #{args['url']}."
   puts 'Happy with it? Enter yes or no:'
   response = STDIN.gets.chomp
 
