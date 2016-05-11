@@ -13,4 +13,18 @@
     display: block
   }
   div#disqus_thread { margin-top: 10px; }
+  img.joe-leeds-ride, img.the-christie-charity {
+    max-width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  img.the-christie-charity { max-width: 50%; }
+
+  @media screen and (max-width: 768px) {
+    img.joe-leeds-ride, img.the-christie-charity {
+      max-width: 100%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
 }
