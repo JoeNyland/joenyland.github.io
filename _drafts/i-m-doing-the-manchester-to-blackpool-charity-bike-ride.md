@@ -6,7 +6,7 @@ excerpt: What better way to raise money for charity?
 
 Recently, I've been trying to get back into my mountain biking. It's been tough, because I've been
 out of it for around 12 months now. I gave up cycling all together last year, following a rough patch with my
-depression. I completely gave it up: sold all by gear, all my bikes and vowed that I would never cycle again and I
+depression. I completely gave it up: sold all by gear, all my bikes and vowed that I would never cycle again ...and I
 didn't. Fast forward 10 months and I was managing my depression and the hunger to ride was building once again!
 
 <img src="/assets/img/posts/manchester-to-blackpool-charity-bike-ride/leeds-ride.jpg" alt="Joe mountain biking near Leeds" class="joe-leeds-ride center img-responsive img-rounded" />
@@ -24,10 +24,12 @@ The bike ride is in aid of [The Christie Charity][the-christie-site] and is a 60
 Museum in Trafford, Manchester to the South Promenade, Blackpool. Those 60 miles will take us through Leigh, Wigan,
 Preston, Warton and into Blackpool. Admittedly, I'm apprehensive, but I'm actually quite looking forward to it. It will
 be a challenge, but I'm looking forward to overcoming it and raising some money for
-[The Christie Charity][the-christie-site] along the way!
+[The Christie Charity][the-christie-site] along the way! I will be joining "The Greenhouse" team from
+[MediaCityUK][mediacityuk] who will be raising money for the charity too!
 
 <img src="/assets/img/posts/manchester-to-blackpool-charity-bike-ride/map.png" alt="A map of the route" class="map-of-route center img-responsive img-rounded" />
 
 I will update this post when I have somewhere setup where you can sponsor me for the ride.
  
 [the-christie-site]: http://www.christie.nhs.uk/the-christie-charity
+[mediacityuk]: http://www.mediacityuk.co.uk
