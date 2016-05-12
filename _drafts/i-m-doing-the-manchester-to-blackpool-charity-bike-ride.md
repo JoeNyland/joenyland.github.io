@@ -29,7 +29,11 @@ be a challenge, but I'm looking forward to overcoming it and raising some money 
 
 <img src="/assets/img/posts/manchester-to-blackpool-charity-bike-ride/map.png" alt="A map of the route" class="map-of-route center img-responsive img-rounded" />
 
-I will update this post when I have somewhere setup where you can sponsor me for the ride.
+Please sponsor me!
+
+<a href='http://www.justgiving.com/JoeNyland' title='JustGiving - Sponsor me now!' target='_blank'><img src='http://www.justgiving.com/App_Themes/JustGiving/images/badges/badge10.gif' width='270' height='50' alt='JustGiving - Sponsor me now!' /></a>
+
+All donations will go straight to [The Christie Charity][the-christie-site].
  
 [the-christie-site]: http://www.christie.nhs.uk/the-christie-charity
 [mediacityuk]: http://www.mediacityuk.co.uk
