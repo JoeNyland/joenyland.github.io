@@ -28,6 +28,6 @@ be a challenge, but I'm looking forward to overcoming it and raising some money 
 
 <img src="/assets/img/posts/manchester-to-blackpool-charity-bike-ride/map.png" alt="A map of the route" class="map-of-route center img-responsive img-rounded" />
 
-I will update this post when I somewhere setup where you can sponsor me for the ride.
+I will update this post when I have somewhere setup where you can sponsor me for the ride.
  
 [the-christie-site]: http://www.christie.nhs.uk/the-christie-charity
