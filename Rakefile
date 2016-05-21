@@ -24,9 +24,10 @@ task :tweet_link_to_post , [:title, :url] do |task,args|
 
   # Connect to the Twitter API
   client = Twitter::REST::Client.new do |config|
-    YAML.load_file('twitter-api-credentials.yaml').each do |config_item,value|
-      config.send "#{config_item}=", value
-    end
+    config.consumer_key        = ENV.fetch "TWITTER_CONSUMER_KEY"
+    config.consumer_secret     = ENV.fetch "TWITTER_CONSUMER_SECRET"
+    config.access_token        = ENV.fetch "TWITTER_ACCESS_TOKEN"
+    config.access_token_secret = ENV.fetch "TWITTER_ACCESS_SECRET"
   end
 
   # Check that we've been provided with a title and URL
