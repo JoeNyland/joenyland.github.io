@@ -37,18 +37,17 @@ task :tweet_link_to_post , [:title, :url] do |task,args|
   puts 'This is the message that will be tweeted:'
   puts message = "I just published a blog post: “#{args['title']}”. Check it out here: #{args['url']}."
   puts 'Happy with it? Enter yes or no:'
-  response = STDIN.gets.chomp
-
-  if %w{y yes}.include? response.downcase
-    # User is happy, so let's tweet it!
-    client.update message
-    puts 'Ok, tweeted that to your followers!'
-  elsif %w{n no}.include? response.downcase
-    # User has changed their mind, so don't tweet
-    puts 'Not tweeting, as requested.'
-  else
-    # Invalid response, so
-    fail 'You must answer yes or no'
+  case STDIN.gets.chomp
+    when /y|yes/i
+      # User is happy, so let's tweet it!
+      client.update message
+      puts 'Ok, tweeted that to your followers!'
+    when /n|no/i
+      # User has changed their mind, so don't tweet
+      puts 'Not tweeting, as requested.'
+    else
+      # Invalid response, so
+      fail 'You must answer yes or no'
   end
 
 end
