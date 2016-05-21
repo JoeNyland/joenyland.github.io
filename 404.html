@@ -3,16 +3,27 @@ permalink: /404.html
 layout: page
 css:
   - href: /assets/css/error.min.css
+scripts:
+  - src: /assets/js/error.js
+title: Page not found
 ---
 
-<div class="container">
+<div class="error">
     <div class="col-md-8 col-md-offset-2 text-center">
-        <h1 class="">Page not found</h1>
-            <img src="/assets/img/404.gif" alt="gif image taken from Family Guy episode 'Leggo My Meg-o'">
+        <h1 class="">Page not found :disappointed:</h1>
+        <div class="error-not-found family-guy">
+            <img src="/assets/img/404/family-guy-404.gif" alt="Gif image taken from Family Guy episode 'Leggo My Meg-o'" class="img img-rounded">
             <p>I don't know who you are. I don't know what you want, but I have a very particular lack of
                 skills. I will never be able to find you. But what I do have is two dollars and a Casio wristwatch.
                 You can have one of them.</p>
             <p>But I can't find this page.</p>
+        </div>
+        <div class="error-not-found naked-gun">
+            <img src="/assets/img/404/naked-gun-404.gif" alt="Please disperse! There's nothing to see here!" class="img img-rounded">
+        </div>
+        <noscript>
+            <p>Sorry, that page cannot be found.</p>
+        </noscript>
         <p><a class="btn btn-primary btn-lg" href="/" role="button">Back to the home page</a></p>
     </div>
 </div>
