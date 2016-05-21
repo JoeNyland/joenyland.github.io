@@ -3,6 +3,8 @@ layout: blog
 ---
 <div class="post">
 
+    {% include pager.html %}
+
     <h1>{{ page.title }}</h1>
     <h4>{{ page.excerpt }}</h4>
 
@@ -17,6 +19,8 @@ layout: blog
     <div id="disqus_thread"></div>
 
 </div>
+
+{% include pager.html %}
 
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES * * */

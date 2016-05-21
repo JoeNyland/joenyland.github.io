@@ -1,0 +1,15 @@
+<nav>
+    <ul class="pager">
+        {% if page.previous %}
+        <li class="previous"><a href="{{page.previous.url}}">Previous</a></li>
+        {% else %}
+        <li class="previous disabled"><a>Previous</a></li>
+        {% endif %}
+
+        {% if page.next %}
+        <li class="next"><a href="{{page.next.url}}">Next</a></li>
+        {% else %}
+        <li class="next disabled"><a>Next</a></li>
+        {% endif %}
+    </ul>
+</nav>
