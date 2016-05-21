@@ -2,6 +2,7 @@
 ---
 /* Main styles */
 
+// Common styles
 @import
   "config",
   "mixins",
@@ -10,20 +11,14 @@
   "navbar",
   "helpers",
   "avatar",
-  "blog",
   "syntax-highlighting"
 ;
 
-// Adds some padding to the avatar
-.avatar {
-  margin-top:    35px;
-  margin-bottom: 35px;
-}
-
-// Make sure that <code> blocks in <pre> tags don't get wrapped.
-// This is required as Bootstrap makes code blocks in pre wrap, for some reason....
-pre > code {
-  overflow: auto;
-  word-wrap: normal;
-  white-space: pre;
-}
+// Page specific styles
+@import
+  "home",
+  "about",
+  "blog",
+  "portfolio",
+  "error"
+;

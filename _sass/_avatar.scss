@@ -8,6 +8,9 @@
   background-image: url('/assets/img/joe.jpg');
   background-size:  cover;
   display:          block;
+  // Adds some padding to the avatar
+  margin-top:    35px;
+  margin-bottom: 35px;
 }
 
 .avatar-xs { @include avatar(50px); }
