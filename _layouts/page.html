@@ -2,11 +2,5 @@
 layout: default
 ---
 <div class="container container-fluid">
-    <ol class="breadcrumb">
-        <li><a href="/">Home</a></li>
-        {% if page.nav != 'home' || page.title == '' %}
-        <li class="active">{{ page.title }}</li>
-        {% endif %}
-    </ol>
     {{ content }}
 </div>
