@@ -5,6 +5,11 @@ nav: blog
 <div class="blog container container-fluid">
     <div class="row">
         <div class="col-md-8">
+            <ol class="breadcrumbs">
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li class="active">{{ page.title }}</li>
+            </ol>
             {{ content }}
         </div>
         <div class="col-md-4 site-description">

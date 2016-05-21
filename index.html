@@ -5,34 +5,32 @@ css:
   - href: /assets/css/home.min.css
 ---
 
-<div class="container container-fluid">
-    <div class="row welcome">
-        <div class="col-md-12">
-            <div class="avatar avatar-md center"></div>
-            <h2>Hello there!</h2>
+<div class="row welcome">
+    <div class="col-md-12">
+        <div class="avatar avatar-md center"></div>
+        <h2>Hello there!</h2>
 
-            <p>My name is Joe Nyland and welcome to my little site!</p>
+        <p>My name is Joe Nyland and welcome to my little site!</p>
 
-            <p>
-                Here, you'll find a little information <a href="about">about me</a> and what I do for a living, my
-                <a href="/blog">blog</a> on all sorts of interesting (and also non-interesting)
-                stuff, my <a href="portfolio">portfolio</a> and information on where I am in the world and how to
-                <a href="contact">contact</a> me if you need to.
-            </p>
+        <p>
+            Here, you'll find a little information <a href="about">about me</a> and what I do for a living, my
+            <a href="/blog">blog</a> on all sorts of interesting (and also non-interesting)
+            stuff, my <a href="portfolio">portfolio</a> and information on where I am in the world and how to
+            <a href="contact">contact</a> me if you need to.
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h2>Recent blog posts</h2>
+    </div>
+</div>
+<div class="row recent-blog-articles">
+    {% for post in site.posts limit:4 %}
+        <div class="col-sm-6 col-md-4 col-lg-3 post">
+            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+            <p>{{post.excerpt}}</p>
+            <p><a class="btn btn-primary" href="{{post.url}}" role="button">View post&nbsp;&raquo;</a></p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Recent blog posts</h2>
-        </div>
-    </div>
-    <div class="row recent-blog-articles">
-        {% for post in site.posts limit:4 %}
-            <div class="col-sm-6 col-md-4 col-lg-3 post">
-                <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-                <p>{{post.excerpt}}</p>
-                <p><a class="btn btn-primary" href="{{post.url}}" role="button">View post&nbsp;&raquo;</a></p>
-            </div>
-        {% endfor %}
-    </div>
+    {% endfor %}
 </div>
