@@ -7,6 +7,12 @@
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@JoeNyland" />
+    <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}"/>
+    <meta name="twitter:image" content="{{'/assets/img/favicon-196x196.png' | prepend: site.url}}" />
+
     <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
     <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
     <meta property="og:image" content="{{'/assets/img/favicon-196x196.png' | prepend: site.url}}" />
