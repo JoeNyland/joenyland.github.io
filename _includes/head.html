@@ -7,6 +7,12 @@
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
+    <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:image" content="{{'/assets/img/favicon-196x196.png' | prepend: site.url}}" />
+    <meta property="og:site_name" content="JoeNyland.me"/>
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}"/>
+
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
