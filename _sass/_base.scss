@@ -29,6 +29,8 @@ body {
   background-color: $white;
 }
 footer {
+  // Red heart
+  .octicon-heart {color: firebrick}
   // Right align text in the footer
   right: 15px;
   text-align: right;
