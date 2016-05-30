@@ -8,4 +8,14 @@ $(document).ready(function () {
     }
     $('#year').html(getYear());
 
+    (function(){
+        var triggered = false;
+        $(window).scroll(function () {
+            if (($(window).scrollTop() >= $(document).height() - $(window).height() - 10) && !triggered) {
+                triggered = true;
+                ga('send', 'event', 'Page', 'Scroll', 'Bottom');
+            }
+        });
+    })()
+
 });
