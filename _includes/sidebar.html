@@ -4,6 +4,13 @@
             <div class="avatar avatar-md center"></div>
         </div>
     </div>
+    {% if page.nav == 'blog' or page.layout == 'post' %}
+    <div class="row text-center blog-description">
+        <div class="col-md-12">
+            <p class="center">{{ site.blog.description }}</p>
+        </div>
+    </div>
+    {% endif %}
     <div class="row">
         <div class="col-md-12 text-center">
             <h4>What I've been saying on Twitter</h4>
