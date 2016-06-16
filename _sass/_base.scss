@@ -31,7 +31,9 @@ body {
 footer {
   // Red heart
   .octicon-heart {color: firebrick}
-  left: 15px;
+  // Right align text in the footer
+  right: 15px;
+  text-align: right;
   &:hover { text-decoration: none; }
 }
 
