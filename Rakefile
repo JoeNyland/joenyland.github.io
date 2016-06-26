@@ -1,5 +1,6 @@
 require 'html-proofer'
 require 'twitter'
+require 'jekyll'
 
 task :default => :test
 
@@ -12,11 +13,14 @@ task :test => [:build] do
 end
 
 task :build => [:clean] do
-  system 'bundle exec jekyll build'
+  config = Jekyll.configuration
+  site = Jekyll::Site.new(config)
+  Jekyll::Commands::Build.build site, config
 end
 
 task :clean do
-  system 'bundle exec jekyll clean'
+  config = Jekyll.configuration
+  Jekyll::Commands::Clean.process config
 end
 
 desc 'Tweet about a new post'
