@@ -19,6 +19,15 @@ my own Bash completion?" That's just what I did!
 
 Here we have it! :tada:
 
+### Update
+Good news!!! :confetti_ball: My Homesick completion script made it into Homebrew! Now you can install with:
+{% highlight bash %}
+brew tap homebrew/completions # Tap the homebrew-completions repo
+brew install homesick-completion
+{% endhighlight %}
+
+Here's the old (manual) installation method, or if you want to look at the code:
+
 <script src="https://gist.github.com/MasterRoot24/10f692638ff6975bbc2550b4a37c561e.js"></script>
 <noscript><p><a href="https://gist.github.com/MasterRoot24/10f692638ff6975bbc2550b4a37c561e" target="_blank">Click here</a> to view 
 the <a href="https://gist.github.com" target="_blank">Gist</a>.</p></noscript>
