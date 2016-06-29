@@ -5,19 +5,21 @@
 @import
 "config",
 "mixins",
-"helpers"
-;
+"helpers";
 
 @media screen {
   .cv {
     background: $grey-light;
     color: $black;
     font-family: "Georgia", sans-serif;
-    padding: 2%;
+    padding: 5%;
     line-height: 1.5;
+    font-size: 15px;
     .paper-pad {
       @include paper_pad($white);
-      padding: 5%;
+      padding: 8%;
+      max-width: 1000px;
+      margin: 0 auto;
     }
     header {
       h1 {
@@ -39,17 +41,14 @@
       margin-bottom: 1.5em;
     }
 
-    dt {
-      font-style: italic;
-      font-weight: bold;
-    }
-
     #body {
       a {
+        transition: color .1s;
         font-style: italic;
         color: $blue-light;
-        text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+        text-shadow: 0 0 2px rgba(104, 182, 255, 0.5);
         text-decoration: none;
+        &:hover { color: $blue-dark; }
         &.subtle {
           color: inherit;
           text-decoration: inherit;
@@ -57,8 +56,8 @@
           0 0 5px rgba(104, 182, 255, 0.1),
           0 0 10px rgba(104, 182, 255, 0.1);
           &:hover {
-            color: $blue-light;
-            text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+            color: $blue-dark;
+            text-shadow: 0 0 2px rgba(104, 182, 255, 0.5);
           }
         }
       }
@@ -66,6 +65,12 @@
         font-weight: normal;
         letter-spacing: -0.03em;
       }
+    }
+
+    .fade-out {
+      transition: opacity .1s;
+      &:hover { opacity: 1; }
+      opacity: .5;
     }
 
   }
@@ -78,9 +83,12 @@
     display: none !important;
   }
 
-  /* Set the default font size */
   body {
-    font-size: 10px;
+    /* Set the default font size */
+    font-size: 14px;
+
+    /* Add left and right padding */
+    padding: 0 50px;
 
     /* Remove the extra space before <ul>'s */
     ul {
