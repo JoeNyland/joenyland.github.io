@@ -12,7 +12,10 @@
     background: $grey-light;
     color: $black;
     font-family: "Georgia", sans-serif;
-    padding: 5%;
+    padding: 1% 1% 5%;
+    @media (min-width: $on-laptop) {
+      padding: 5%;
+    }
     line-height: 1.5;
     font-size: 15px;
     .paper-pad {
