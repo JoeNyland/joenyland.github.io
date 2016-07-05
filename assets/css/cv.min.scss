@@ -76,10 +76,18 @@
       opacity: .5;
     }
 
-    .download-as-pdf {
+    .btn.download-as-pdf {
       position: fixed;
-      bottom:20px;
-      right:20px;
+      top:10px;
+      right:10px;
+      font-family: $base-font-family;
+    }
+
+    .btn.back-to-top {
+      display: none;
+      position: fixed;
+      top: 10px;
+      left: 10px;
       font-family: $base-font-family;
     }
 
