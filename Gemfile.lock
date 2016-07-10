@@ -26,7 +26,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    ffi (1.9.10)
+    ffi (1.9.13)
     gemoji (2.1.0)
     gh (0.14.0)
       addressable
@@ -35,7 +35,7 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent (>= 2.7)
       net-http-pipeline
-    github-pages (85)
+    github-pages (86)
       github-pages-health-check (= 1.1.0)
       jekyll (= 3.1.6)
       jekyll-coffeescript (= 1.0.1)
@@ -53,7 +53,7 @@ GEM
       liquid (= 3.0.6)
       listen (= 3.0.6)
       mercenary (~> 0.3)
-      rouge (= 1.10.1)
+      rouge (= 1.11.1)
       terminal-table (~> 1.4)
     github-pages-health-check (1.1.0)
       addressable (~> 2.3)
@@ -154,7 +154,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    rouge (1.10.1)
+    rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sawyer (0.7.0)
@@ -197,7 +197,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 85)
+  github-pages (= 86)
   html-proofer (~> 3)
   jekyll
   jekyll-compose
@@ -208,4 +208,4 @@ DEPENDENCIES
   twitter
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
