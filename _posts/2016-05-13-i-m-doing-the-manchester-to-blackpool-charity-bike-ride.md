@@ -34,6 +34,14 @@ Please sponsor me!
 <a href='http://www.justgiving.com/JoeNyland' title='JustGiving - Sponsor me now!' target='_blank'><img src='http://www.justgiving.com/App_Themes/JustGiving/images/badges/badge10.gif' width='270' height='50' alt='JustGiving - Sponsor me now!' /></a>
 
 All donations will go straight to [The Christie Charity][the-christie-site].
- 
+
+### Update 10/07/2016 :tada: :dancer: :confetti_ball:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;ve done it!!! 💪🚴😅 <a href="https://t.co/Al4tHR0Lu6">pic.twitter.com/Al4tHR0Lu6</a></p>&mdash; Joe Nyland (@JoeNyland) <a href="https://twitter.com/JoeNyland/status/752111514564395008">July 10, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I completed the ride today! I raised £175 for [The Christie Charity][the-christie-site], which is well above the
+£50 target I set myself when I signed up for the ride. Thank you to everyone who donated. The money you have donated
+will all go to a good cause.
+
 [the-christie-site]: http://www.christie.nhs.uk/the-christie-charity
 [mediacityuk]: http://www.mediacityuk.co.uk
