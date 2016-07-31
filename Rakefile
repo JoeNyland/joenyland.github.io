@@ -8,7 +8,10 @@ task :test => [:build] do
   HTMLProofer.check_directory('./_site',{
                                  check_favico: true,
                                  check_html: true,
-                                 allow_hash_href: true
+                                 allow_hash_href: true,
+                                 typhoeus: {
+                                   headers: { 'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7' }
+                                 }
                              }).run
 end
 
