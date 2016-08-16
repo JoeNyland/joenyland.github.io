@@ -26,9 +26,40 @@ description: "Details on how you can get in touch with me."
         <a href="tel:07568541556" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip"
            data-placement="bottom" title="07568 541556"><i
                 class="fa fa-mobile fa-fw"></i> <span class="network-name hidden-xs">Phone</span></a>
-            <a href="bitcoin:14NAZFWM1K46CvtuvBAURzuT9KberJTJuY" target="_blank" class="btn btn-primary btn-lg"
-               data-toggle="tooltip" data-placement="bottom" title="14NAZFWM1K46CvtuvBAURzuT9KberJTJuY"><i
-                class="fa fa-bitcoin fa-fw"></i> <span class="network-name hidden-xs">Bitcoin</span></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+        <h2>Reward Me</h2>
+        <p>If you like my site, here's how you can reward me!</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8 col-lg-offset-2">
+        <div class="btn-group btn-group-justified" role="group">
+            <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#bitcoinQRModal">
+                <i class="fa fa-bitcoin fa-fw"></i> <span class="network-name hidden-xs">Bitcoin</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="bitcoinQRModal" tabindex="-1" role="dialog" aria-labelledby="bitcoinQRModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="bitcoinQRModalLabel">Bitcoin wallet address</h4>
+            </div>
+            <div class="modal-body">
+                <img class="bitcoin-address" src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=bitcoin%3A1QDKQVa3FJ5MQB6mzNqejfDxT8Xp85352z%0A&amp;qzone=0&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" />
+                <code class="bitcoin-address">
+                    1QDKQVa3FJ5MQB6mzNqejfDxT8Xp85352z
+                </code>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
 </div>
