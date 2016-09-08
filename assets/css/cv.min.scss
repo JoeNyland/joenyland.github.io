@@ -97,7 +97,7 @@
 @media print {
 
   /* Hide some classes and IDs by default */
-  .no-print, .no-print *, #nav, .download-as-pdf {
+  .no-print, .no-print *, #nav, .download-as-pdf, .back-to-top {
     display: none !important;
   }
 
