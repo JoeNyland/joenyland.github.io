@@ -213,7 +213,6 @@ DEPENDENCIES
   jekyll
   jekyll-compose
   jekyll-paginate
-  json
   rake
   travis
   twitter
