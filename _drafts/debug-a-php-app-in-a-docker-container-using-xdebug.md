@@ -152,6 +152,34 @@ docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:192.168.1
 If you have any questions on the above, or if you've got a better way of doing this, please let me know in the comments
 below!
 
+### Update
+
+Since writing this post, I've found that the issue around connecting back to the Docker host isn't possible out of the
+box.
+
+The issue with the above workaround is that it's dependent on a potentially ever changing IP address. Another issue is
+that you may not have LAN IP address, for example you're not connected to any networks and are working offline.
+
+The [Docker for Mac network notes][docker-for-mac-network-notes] mention the known issues with Docker for Mac and in there, there's a suggestion to add
+an alias address to the `lo0` interface on your Mac. `lo0` is a loopback interface that's always available on your Mac,
+regardless of whether or not you're connected to a WiFi network. If you're not connected to a network, you can use the
+above workaround I've talked about, but instead of using the LAN address, use a new loopback alias address, which is
+created like so:
+
+```bash
+sudo ifconfig lo0 alias 10.200.10.1/24
+```
+
+Then create a container, passing in the new IP address you just added to the loopback interface:
+
+```bash
+docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:10.20.10.1" masterroot24/php-web-app-debug-demo
+```
+
+It's still annoying that we can't just use the [`xdebug.remote_connect_back`][xdebug-connect-back], but it seems to be
+a known issue to the Docker for Mac team, so hopefully there may be a better solution in the future when the Docker
+networking implementation on Macs improves.
+
 [docker-site]: https://www.docker.com
 [demo-repo]: https://github.com/MasterRoot24/php-webapp-debug-demo-docker
 [docker-for-mac-release-post]: https://blog.docker.com/2016/07/docker-for-mac-and-windows-production-ready/
@@ -162,3 +190,5 @@ below!
 [xdebug]: https://xdebug.org
 [docker-networking]: https://docs.docker.com/engine/userguide/networking/
 [docker-for-mac-network-known-issues]: https://docs.docker.com/docker-for-mac/networking/#/known-limitations-use-cases-and-workarounds
+[xdebug-connect-back]: https://xdebug.org/docs/all_settings#remote_connect_back
+[docker-for-mac-network-notes]: https://docs.docker.com/docker-for-mac/networking/#/use-cases-and-workarounds
