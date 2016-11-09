@@ -173,7 +173,7 @@ sudo ifconfig lo0 alias 10.200.10.1/24
 Then create a container, passing in the new IP address you just added to the loopback interface:
 
 ```bash
-docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:10.20.10.1" masterroot24/php-web-app-debug-demo
+docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:10.200.10.1" masterroot24/php-web-app-debug-demo
 ```
 
 It's still annoying that we can't just use the [`xdebug.remote_connect_back`][xdebug-connect-back], but it seems to be
