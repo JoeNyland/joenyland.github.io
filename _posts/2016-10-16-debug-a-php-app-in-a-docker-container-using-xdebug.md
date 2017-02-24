@@ -141,12 +141,10 @@ docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:192.168.1
 With that in place, you should be able to set some breakpoints in yur PHP code, tell PhpStorm to listen for debug
 connections, then request the site in your browser and be good to go!
  
-I've thrown together a quick demo of this. The repo holding the source can be found [here][demo-repo] and you can pull a Docker
-image containing a working Xdebug setup:
+I've thrown together a quick demo of this. The repo holding the source can be found [here][demo-repo] and you can pull a Docker image containing a working Xdebug setup from the [Docker Hub][docker-hub-demo-image] like so:
 
 ```bash
-# Replace 192.168.1.66 with your actual LAN IP address
-docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:192.168.1.66" masterroot24/php-web-app-debug-demo
+docker pull masterroot24/php-web-app-debug-demo
 ```
 
 If you have any questions on the above, or if you've got a better way of doing this, please let me know in the comments
@@ -192,3 +190,4 @@ networking implementation on Macs improves.
 [docker-for-mac-network-known-issues]: https://docs.docker.com/docker-for-mac/networking/#/known-limitations-use-cases-and-workarounds
 [xdebug-connect-back]: https://xdebug.org/docs/all_settings#remote_connect_back
 [docker-for-mac-network-notes]: https://docs.docker.com/docker-for-mac/networking/#/use-cases-and-workarounds
+[docker-hub-demo-image]: https://hub.docker.com/r/masterroot24/php-web-app-debug-demo/
