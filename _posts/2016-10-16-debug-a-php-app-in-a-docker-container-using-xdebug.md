@@ -181,7 +181,7 @@ a known issue to the Docker for Mac team, so hopefully there may be a better sol
 networking implementation on Macs improves.
 
 [docker-site]: https://www.docker.com
-[demo-repo]: https://github.com/MasterRoot24/php-webapp-debug-demo-docker
+[demo-repo]: https://github.com/MasterRoot24/docker-php-webapp-debug-demo
 [docker-for-mac-release-post]: https://blog.docker.com/2016/07/docker-for-mac-and-windows-production-ready/
 [docker-compose-example-1]: https://github.com/MasterRoot24/docker-compose-test
 [docker-compose-example-2]: https://github.com/MasterRoot24/docker-compose-wordpress-test
