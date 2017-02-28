@@ -77,4 +77,4 @@ code no longer worked with the latest versions of that gem.
 [3]: /portfolio
 [4]: https://travis-ci.org
 [5]: {% post_url 2015-06-22-so_im_using_jekyll_to_run_my_blog %}
-[6]: https://github.com/MasterRoot24/masterroot24.github.io/blob/master/README.md
+[6]: https://github.com/JoeNyland/joenyland.github.io/blob/master/README.md

@@ -28,8 +28,8 @@ brew install homesick-completion
 
 Here's the old (manual) installation method, or if you want to look at the code:
 
-<script src="https://gist.github.com/MasterRoot24/10f692638ff6975bbc2550b4a37c561e.js"></script>
-<noscript><p><a href="https://gist.github.com/MasterRoot24/10f692638ff6975bbc2550b4a37c561e" target="_blank">Click here</a> to view 
+<script src="https://gist.github.com/JoeNyland/10f692638ff6975bbc2550b4a37c561e.js"></script>
+<noscript><p><a href="https://gist.github.com/JoeNyland/10f692638ff6975bbc2550b4a37c561e" target="_blank">Click here</a> to view 
 the <a href="https://gist.github.com" target="_blank">Gist</a>.</p></noscript>
 
 This is my first Bash completion script that I've written. Previous to this, I had no idea how packages allowed you to
@@ -47,8 +47,8 @@ I hope this helps someone out! Let me in the comments section below if it does, 
 
 [homesick]: https://github.com/technicalpickles/homesick
 [josh-nicols]: https://github.com/technicalpickles
-[my-dotfiles]: https://github.com/MasterRoot24/dotfiles
-[homesick-completion-repo]: https://github.com/MasterRoot24/homesick-completion
-[pull-request]: https://github.com/MasterRoot24/homesick-completion/pulls
-[issue]: https://github.com/MasterRoot24/homesick-completion/issues
+[my-dotfiles]: https://github.com/JoeNyland/dotfiles
+[homesick-completion-repo]: https://github.com/JoeNyland/homesick-completion
+[pull-request]: https://github.com/JoeNyland/homesick-completion/pulls
+[issue]: https://github.com/JoeNyland/homesick-completion/issues
 [homebrew-completions]: https://github.com/Homebrew/homebrew-completions

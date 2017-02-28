@@ -21,7 +21,7 @@ when I came to add the remote GitHub or BitBucket (I know, I know - we *have* to
 terrible!). As normal, I'd issue the following command to add the remote repo:
 
 {% highlight bash %}
-$ git remote add origin https://github.com/MasterRoot24/test.git
+$ git remote add origin https://github.com/JoeNyland/test.git
 {% endhighlight %}
 
 But this would throw the error:
@@ -53,7 +53,7 @@ exist.
 [Googling][2] for the error above yields many many suggestions for users to use the following:
 
 {% highlight bash %}
-$ git remote set-url origin https://github.com/MasterRoot24/test.git
+$ git remote set-url origin https://github.com/JoeNyland/test.git
 {% endhighlight %}
 
 But that doesn't really address the problem here. The real solution to that error is to remove the configuration at
@@ -86,8 +86,8 @@ Moral of the story: Git is awesome!!! :metal:
 
 If this helps, please feel free to let me know in the comments section below!
 
-[1]: https://github.com/MasterRoot24/dotfiles/blob/master/home/.gitconfig
+[1]: https://github.com/JoeNyland/dotfiles/blob/master/home/.gitconfig
 [2]: https://www.google.co.uk/#q=fatal:+remote+origin+already+exists.
-[3]: https://github.com/MasterRoot24/dotfiles/commit/f2d9ea2fdfbb31c762ea3523d2a59c83735d406e
+[3]: https://github.com/JoeNyland/dotfiles/commit/f2d9ea2fdfbb31c762ea3523d2a59c83735d406e
 [4]: http://albertogrespan.com/blog/always-prune-remote-tracking-branches/
-[5]: https://github.com/MasterRoot24/dotfiles/commit/5ba637fd18da75e9f159a7186c9a01a975b6bcab
+[5]: https://github.com/JoeNyland/dotfiles/commit/5ba637fd18da75e9f159a7186c9a01a975b6bcab

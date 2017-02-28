@@ -32,5 +32,5 @@ It took me a while to figure this out and I only worked out how to do it whilst 
 [source of the Gem Package provider in Puppet][puppet-gem-source]. I hope this saves others from wasting too much time
 on working out how to do this, like I did!
 
-[example-gem-repo]: https://github.com/MasterRoot24/cautious-potato
+[example-gem-repo]: https://github.com/JoeNyland/cautious-potato
 [puppet-gem-source]: https://github.com/puppetlabs/puppet/blob/master/lib/puppet/provider/package/gem.rb

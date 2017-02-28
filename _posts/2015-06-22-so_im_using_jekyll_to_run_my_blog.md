@@ -22,9 +22,9 @@ Better still, it would be great if you could [fork the repo][github-kb-fork], th
 [here][github-pr]. Thanks!
 
 [jekyll]:         http://jekyllrb.com
-[github-repo]:    https://github.com/MasterRoot24/masterroot24.github.io
-[github-issues]:  https://github.com/MasterRoot24/masterroot24.github.io/issues
-[github-pr]:      https://github.com/MasterRoot24/masterroot24.github.io/pulls
+[github-repo]:    https://github.com/JoeNyland/joenyland.github.io
+[github-issues]:  https://github.com/JoeNyland/joenyland.github.io/issues
+[github-pr]:      https://github.com/JoeNyland/joenyland.github.io/pulls
 [github-kb-fork]: https://help.github.com/articles/fork-a-repo/
 [github-pages]:   https://pages.github.com
 [github]:         https://github.com

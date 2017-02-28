@@ -144,7 +144,7 @@ connections, then request the site in your browser and be good to go!
 I've thrown together a quick demo of this. The repo holding the source can be found [here][demo-repo] and you can pull a Docker image containing a working Xdebug setup from the [Docker Hub][docker-hub-demo-image] like so:
 
 ```bash
-docker pull masterroot24/php-web-app-debug-demo
+docker pull joenyland/php-web-app-debug-demo
 ```
 
 If you have any questions on the above, or if you've got a better way of doing this, please let me know in the comments
@@ -171,7 +171,7 @@ sudo ifconfig lo0 alias 10.200.10.1/24
 Then create a container, passing in the new IP address you just added to the loopback interface:
 
 ```bash
-docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:10.200.10.1" masterroot24/php-web-app-debug-demo
+docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:10.200.10.1" joenyland/php-web-app-debug-demo
 ```
 
 It's still annoying that we can't just use the [`xdebug.remote_connect_back`][xdebug-connect-back], but it seems to be
@@ -179,10 +179,10 @@ a known issue to the Docker for Mac team, so hopefully there may be a better sol
 networking implementation on Macs improves.
 
 [docker-site]: https://www.docker.com
-[demo-repo]: https://github.com/MasterRoot24/docker-php-web-app-debug-demo
+[demo-repo]: https://github.com/JoeNyland/docker-php-web-app-debug-demo
 [docker-for-mac-release-post]: https://blog.docker.com/2016/07/docker-for-mac-and-windows-production-ready/
-[docker-compose-example-1]: https://github.com/MasterRoot24/docker-compose-test
-[docker-compose-example-2]: https://github.com/MasterRoot24/docker-compose-wordpress-test
+[docker-compose-example-1]: https://github.com/JoeNyland/docker-compose-test
+[docker-compose-example-2]: https://github.com/JoeNyland/docker-compose-wordpress-test
 [phpstorm-site]: https://www.jetbrains.com/phpstorm/
 [jetbrains-ides]: https://www.jetbrains.com/products.html?fromMenu#type=ide
 [xdebug]: https://xdebug.org
@@ -190,4 +190,4 @@ networking implementation on Macs improves.
 [docker-for-mac-network-known-issues]: https://docs.docker.com/docker-for-mac/networking/#/known-limitations-use-cases-and-workarounds
 [xdebug-connect-back]: https://xdebug.org/docs/all_settings#remote_connect_back
 [docker-for-mac-network-notes]: https://docs.docker.com/docker-for-mac/networking/#/use-cases-and-workarounds
-[docker-hub-demo-image]: https://hub.docker.com/r/masterroot24/php-web-app-debug-demo/
+[docker-hub-demo-image]: https://hub.docker.com/r/joenyland/php-web-app-debug-demo/
