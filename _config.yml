@@ -9,7 +9,7 @@ blog:
     coding, SysAdmin and other things that interest me as I fumble
     my way through life, laughing and learning along the way.
     I can't guarantee that everything will be interesting, but I'll try!
-url: "http://joenyland.me"
+url: "https://joenyland.github.io"
 permalink: /blog/:title/
 gems:
   - jekyll-feed
