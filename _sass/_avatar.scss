@@ -11,9 +11,6 @@
   // Adds some padding to the avatar
   margin-top:    35px;
   margin-bottom: 35px;
-  &-red {
-    background-image: url('/assets/img/joe-red.jpg');
-  }
 }
 
 .avatar-xs { @include avatar(50px); }
