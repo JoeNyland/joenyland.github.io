@@ -8,7 +8,6 @@ gem 'github-pages', versions['github-pages']
 gem 'jekyll'
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-paginate', group: [:jekyll_plugins]
-gem 'twitter'
 
 group :test do
   gem 'html-proofer', '~> 3'
