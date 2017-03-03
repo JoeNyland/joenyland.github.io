@@ -4,6 +4,7 @@ require 'jekyll'
 
 task :default => :test
 
+desc 'Test the site for errors'
 task :test => [:build] do
   HTMLProofer.check_directory('./_site',{
                                  check_favico: true,
