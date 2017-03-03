@@ -18,7 +18,7 @@ $(document).ready(function () {
                 ga('send', 'event', 'Page', 'Scroll', 'Bottom');
             }
         });
-    })()
+    })();
 
     // Scroll to top button
     // Check to see if the window is top if not then display button
