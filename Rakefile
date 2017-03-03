@@ -17,7 +17,7 @@ task :test => [:build] do
 end
 
 task :build => [:clean] do
-  config = Jekyll.configuration
+  config = Jekyll.configuration safe: ENV.has_key?('JEKYLL_SAFE')
   site = Jekyll::Site.new(config)
   Jekyll::Commands::Build.build site, config
 end
