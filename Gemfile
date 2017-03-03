@@ -11,8 +11,5 @@ gem 'jekyll-paginate', group: [:jekyll_plugins]
 
 group :test do
   gem 'html-proofer', '~> 3'
-end
-
-group :development, :test do
   gem 'rake'
 end
