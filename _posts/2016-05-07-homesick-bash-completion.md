@@ -17,20 +17,11 @@ give a command and the path to a file, etc. It really is awful :wink:
 So, I thought: "I use Homebrew all the time and it's never cost me a penny, so why not give something back and write
 my own Bash completion?" That's just what I did!
 
-Here we have it! :tada:
-
-### Update
-Good news!!! :confetti_ball: My Homesick completion script made it into Homebrew! Now you can install with:
+You can install with:
 {% highlight bash %}
 brew tap homebrew/completions # Tap the homebrew-completions repo
 brew install homesick-completion
 {% endhighlight %}
-
-Here's the old (manual) installation method, or if you want to look at the code:
-
-<script src="https://gist.github.com/JoeNyland/10f692638ff6975bbc2550b4a37c561e.js"></script>
-<noscript><p><a href="https://gist.github.com/JoeNyland/10f692638ff6975bbc2550b4a37c561e" target="_blank">Click here</a> to view 
-the <a href="https://gist.github.com" target="_blank">Gist</a>.</p></noscript>
 
 This is my first Bash completion script that I've written. Previous to this, I had no idea how packages allowed you to
 tab complete stuff so this was a really interesting exercise to find out how it's done, whilst doing something useful
@@ -38,10 +29,6 @@ at the same time!
 
 You can find the repo on GitHub [here][homesick-completion-repo]. If you've git any ideas for improvements, feel free
 to submit a [pull request][pull-request], or if you get any problems, open up an [issue][issue].
-
-I've currently got a pull request open on the [Homebrew/homebrew-completions repo][homebrew-completions] here:
-[#113](https://github.com/Homebrew/homebrew-completions/pull/113), so if that get's accepted you should be able install
-my Bash completion script using Homebrew!
 
 I hope this helps someone out! Let me in the comments section below if it does, or if you have any questions.
 
