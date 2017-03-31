@@ -9,7 +9,3 @@ gem 'jekyll'
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-paginate', group: [:jekyll_plugins]
 
-group :test do
-  gem 'html-proofer', '~> 3'
-  gem 'rake'
-end
