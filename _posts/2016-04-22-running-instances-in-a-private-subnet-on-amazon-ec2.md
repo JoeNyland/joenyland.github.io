@@ -25,7 +25,7 @@ instance can be put in it's place without taking the application servers down. W
 direct access to your app servers from the internet - they only get direct access to your load balancer or reverse
 proxy which is much more secure. Again, this doesn't garauntee an attacker won't hop from the load balancer onto the
 app server, but this can be mitigated with different users, SSH keys, etc. between the public subnet and the private
-subnet. This is a little ot of the scope of this post, though!
+subnet. This is a little out of the scope of this post, though!
 
 Now, let's get back on topic!
 
