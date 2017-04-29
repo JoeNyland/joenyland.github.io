@@ -44,10 +44,8 @@ Then close your Terminal.app window and re-open to reload the Bash environment. 
 presence of the `~/.bash_sessions_disable` file (although empty) instructs Bash to disable the "sessions" feature and 
 revert to previous behaviour of storing history in the `$HISTFILE` (the value of which defaults to `~/.bash_history`).
 
-A little more info on what Bash sessions is can be found [here][3].
-
-There might be advantages to using Bash sessions that I'm not aware of. If you know of any or if you have any 
-questions, feel free to pipe up in the comments section below!
+A little more info on what Bash sessions is can be found [here][3]. There might be advantages to using Bash sessions
+that I'm not aware of...
 
 [1]: http://stackoverflow.com/q/32418438/1788943
 [2]: http://stackoverflow.com/a/32418439/1788943

@@ -66,8 +66,6 @@ validation issues too.
 If you're using Jekyll for your sites or blogs and you're not already running some sort of tests, then I recommend you 
 give this a go!
 
-As always, chime in below in the comments section with any feedback or issues.
-
 ### Update 12/03/2016
 I've updated the Rake tasks in the code snippet above to work with HTMLProofer 3 which was recently released. The old
 code no longer worked with the latest versions of that gem.

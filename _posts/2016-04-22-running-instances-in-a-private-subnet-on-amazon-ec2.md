@@ -199,9 +199,6 @@ forward HTTP connections onto it without exposing the private instance to the in
 instances have full outbound internet connectivity; allowing code to be deployed to the instances, along with OS
 and application updates, installation and downloads.
   
-Don't worry if not all of it makes sense. If there are any points that you're not
-sure on or I've not explained clearly enough, feel free to hit me up in the comments section below!
-
 I hope this has helped; it took me a fair bit of trial and error to work out how to do this. If this has helped,
 please let me know!
 
