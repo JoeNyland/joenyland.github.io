@@ -1,13 +1,4 @@
 .home {
   // Add some spacing between sections to make things look cleaner
   h2 { margin-top: 50px; }
-
-  // Make things clearer on the homepage when on mobile devices
-  .recent-blog-articles .post {
-    @media screen and (max-width: 768px) {
-      margin: 30px 0;
-      &:first-of-type { margin: 0 0 30px 0; }
-      &:last-of-type { margin: 30px 0 0 0; }
-    }
-  }
 }

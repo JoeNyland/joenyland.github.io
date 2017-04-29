@@ -13,7 +13,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a {% if page.nav == 'home' %}class="active"{% endif %} href="/">Home</a></li>
-        <li><a {% if page.nav == 'blog' or page.layout == 'post' %}class="active"{% endif %} href="/blog">Blog</a></li>
+        <li><a target="_blank" href="{{site.blog.url}}">Blog</a></li>
         <li><a {% if page.nav == 'portfolio' %}class="active"{% endif %} href="/portfolio">Portfolio</a></li>
         <li><a {% if page.nav == 'contact' %}class="active"{% endif %} href="/contact">Contact Me</a></li>
       </ul>
