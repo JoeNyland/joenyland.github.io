@@ -76,13 +76,6 @@
       opacity: .5;
     }
 
-    .btn.download-as-pdf {
-      position: fixed;
-      top:10px;
-      right:10px;
-      font-family: $base-font-family;
-    }
-
     .btn.back-to-top {
       display: none;
       position: fixed;
@@ -97,7 +90,7 @@
 @media print {
 
   /* Hide some classes and IDs by default */
-  .no-print, .no-print *, #nav, .download-as-pdf, .back-to-top {
+  .no-print, .no-print *, #nav, .back-to-top {
     display: none !important;
   }
 
