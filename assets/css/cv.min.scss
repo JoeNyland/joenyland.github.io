@@ -5,6 +5,7 @@
 @import
 "config",
 "mixins",
+"avatar",
 "helpers";
 
 @media screen {
@@ -25,6 +26,10 @@
       margin: 0 auto;
     }
     header {
+      .avatar {
+        float: right;
+        margin-top: 0;
+      }
       h1 {
         font-size: 50px;
         text-align: center;
@@ -90,7 +95,7 @@
 @media print {
 
   /* Hide some classes and IDs by default */
-  .no-print, .no-print *, #nav, .back-to-top {
+  .no-print, .no-print *, #nav, .back-to-top, .avatar {
     display: none !important;
   }
 
