@@ -1,17 +1,4 @@
 $(document).ready(function () {
-
-    // Send GA event when user scrolls to the bottom of the page, which we interpret as them reading the content
-    // on the page.
-    (function(){
-        var triggered = false;
-        $(window).scroll(function () {
-            if (($(window).scrollTop() >= $(document).height() - $(window).height() - 10) && !triggered) {
-                triggered = true;
-                ga('send', 'event', 'Page', 'Scroll', 'Bottom');
-            }
-        });
-    })();
-
     // Scroll to top button
     // Check to see if the window is top if not then display button
     $(window).scroll(function(){
@@ -27,5 +14,4 @@ $(document).ready(function () {
         $('html, body').animate({scrollTop : 0},800);
         return false;
     });
-
 });
