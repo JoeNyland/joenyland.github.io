@@ -7,13 +7,13 @@ description: "Details on how you can get in touch with me."
 
 <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
-        <h2>Contact Me</h2>
-        <p>Use the form below to send me a quick message:</p>
+        <h1>Contact Me</h1>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
+        <p>Use the form below to send me a quick message:</p>
         <form class="form-horizontal" method="post" action="https://formspree.io/joenyland+qv3soaj@me.com">
             <div class="form-group">
                 <label class="col-sm-2 control-label">Email</label>
@@ -28,6 +28,9 @@ description: "Details on how you can get in touch with me."
                 </div>
             </div>
             <button type="submit" class="btn btn-primary btn-lg right">Send</button>
+            <input type="hidden" name="_next" value="{{site.url}}/contact/thanks" />
+            <input type="hidden" name="_subject" value="New submission!" />
+            <input type="text" name="_gotcha" style="display:none" />
         </form>
     </div>
 </div>
