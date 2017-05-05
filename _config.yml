@@ -2,8 +2,6 @@ title: Joe Nyland
 author: Joe Nyland
 description: I'm a developer, geek, mountain biker and dog lover from Northwich, UK and this is my site!
 url: https://joenyland.github.io
-blog:
-  url: https://medium.com/joe-nyland
 markdown: kramdown
 sass:
   style: compressed
