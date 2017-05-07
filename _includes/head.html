@@ -11,7 +11,7 @@
     <meta name="twitter:site" content="@JoeNyland" />
     <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}"/>
-    <meta name="twitter:image" content="{{'/assets/img/favicon-196x196.png' | prepend: site.url}}" />
+    <meta name="twitter:image" content="{{'/assets/img/favicon-32x32.png' | prepend: site.url}}" />
 
     <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
     <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
@@ -19,23 +19,19 @@
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}"/>
 
-    <link rel="shortcut icon" href="/assets/img/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
-    <link rel="icon" type="image/png" href="/assets/img/favicon-196x196.png" sizes="196x196">
-    <link rel="icon" type="image/png" href="/assets/img/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" href="{{'/assets/img/favicon.ico' | prepend: site.url}}">
+    <link rel="icon" type="image/png" href="{{'/assets/img/favicon-32x32.png' | prepend: site.url}}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{'/assets/img/favicon-16x16.png' | prepend: site.url}}" sizes="16x16">
     <meta name="msapplication-TileColor" content="#323232">
-    <meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
-    <meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+    <meta name="msapplication-TileImage" content="{{'/assets/img/mstile-150x150.png' | prepend: site.url}}">
+    <meta name="msapplication-config" content="{{'/assets/img/browserconfig.xml' | prepend: site.url}}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{'/assets/img/apple-touch-icon.png' | prepend: site.url}}">
+    <link rel="manifest" href="{{'/assets/img/manifest.json' | prepend: site.url}}">
+    <link rel="mask-icon" href="{{'/assets/img/safari-pinned-tab.svg' | prepend: site.url}}" color="#b14437">
+    <meta name="apple-mobile-web-app-title" content="Joe Nyland">
+    <meta name="application-name" content="Joe Nyland">
+    <meta name="theme-color" content="#d7d7d7">
 
     {% include fonts.html %}
     {% include css.html %}
