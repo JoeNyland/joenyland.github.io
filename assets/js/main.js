@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    /* Add the current year to the footer */
+    function getYear() {
+        var d = new Date();
+        var n = d.getFullYear();
+        return n.toString();
+    }
+    $('#year').html(getYear());
+
     // Scroll to top button
     // Check to see if the window is top if not then display button
     $(window).scroll(function(){
