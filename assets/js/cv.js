@@ -1,13 +1,5 @@
 $(document).ready(function () {
 
-    /* Add the current year to the footer */
-    function getYear() {
-        var d = new Date();
-        var n = d.getFullYear();
-        return n.toString();
-    }
-    $('#year').html(getYear());
-
     // Send GA event when user scrolls to the bottom of the page, which we interpret as them reading the content
     // on the page.
     (function(){
