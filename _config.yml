@@ -9,7 +9,7 @@ blog:
     my way through life, laughing and learning along the way.
     I can't guarantee that everything will be interesting, but I'll try!
 permalink: /blog/:title/
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
