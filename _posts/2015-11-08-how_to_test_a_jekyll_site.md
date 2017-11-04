@@ -51,7 +51,7 @@ I get an email pinged across to me from Travis. Kind of like another set of eyes
 Maybe, but it's not doing any harm and I learnt a bit about Travis CI in the process and I plan to use it in all 
 [my major projects][3] moving forward.
 
-It also means I get a nice badge to show off in the [README][6] :sunglasses::
+It also means I get a nice badge to show off in the README :sunglasses::
 
 ![Screenshot of README.md](/assets/img/posts/how_to_test_a_jekyll_site/readme_screenshot.png)
 
@@ -73,4 +73,3 @@ code no longer worked with the latest versions of that gem.
 [2]: http://stackoverflow.com/questions/33582197/how-do-i-build-a-jekyll-site-from-rake-task-without-using-the-command-line
 [3]: /portfolio
 [4]: https://travis-ci.org
-[6]: https://github.com/JoeNyland/joenyland.github.io/blob/master/README.md
