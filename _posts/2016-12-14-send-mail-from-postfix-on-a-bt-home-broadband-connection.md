@@ -68,4 +68,6 @@ tail -f /var/log/mail.log # Ubuntu/Debian
 tail -f /var/log/maillog  # CentOS
 {% endhighlight %}
 
+Pipe up in the comments below if you have any issues or questions!
+
 [bt-email]: https://www.bt.com/appsconsumeraccount/secure/manageEmailAccounts.do

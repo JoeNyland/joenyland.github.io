@@ -84,6 +84,8 @@ I've [added this to my `~/.gitconfig`][5] and have been using it for the past fe
 
 Moral of the story: Git is awesome!!! :metal:
 
+If this helps, please feel free to let me know in the comments section below!
+
 [1]: https://github.com/JoeNyland/dotfiles/blob/master/home/.gitconfig
 [2]: https://www.google.co.uk/#q=fatal:+remote+origin+already+exists.
 [3]: https://github.com/JoeNyland/dotfiles/commit/f2d9ea2fdfbb31c762ea3523d2a59c83735d406e

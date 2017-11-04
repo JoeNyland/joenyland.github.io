@@ -30,7 +30,7 @@ at the same time!
 You can find the repo on GitHub [here][homesick-completion-repo]. If you've git any ideas for improvements, feel free
 to submit a [pull request][pull-request], or if you get any problems, open up an [issue][issue].
 
-I hope this helps someone out!
+I hope this helps someone out! Let me in the comments section below if it does, or if you have any questions.
 
 [homesick]: https://github.com/technicalpickles/homesick
 [josh-nicols]: https://github.com/technicalpickles

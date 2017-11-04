@@ -30,5 +30,7 @@ like so:
 Technically, I know this is no different than the `<meta>` tag I was already using, but I decided to give it a go and it 
 worked!
 
+I'm interested to find out why this is required. If you know why, please let me know in the comments below.
+
 [1]: https://developers.google.com/speed/pagespeed/insights/
 [2]: https://developers.google.com/speed/docs/insights/ConfigureViewport

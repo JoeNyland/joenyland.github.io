@@ -45,6 +45,8 @@ This post is a little different from my recent posts as it's less of a tutorial/
 style post. Hopefully Google will index it and help others get to the conclusion I did, without having to waste too
 much time. Furthermore, hopefully GitHub will implement this feature sooner rather than later!
 
+As always, hit me up in the comments section below if you have questions or comments!
+
 [git-lfs-tweet]: https://twitter.com/JoeNyland/status/718732564882710529
 [git-lfs-repo]: https://github.com/github/git-lf
 [git-lfs]: https://git-lfs.github.com
