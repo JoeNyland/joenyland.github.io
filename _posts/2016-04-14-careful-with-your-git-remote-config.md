@@ -12,7 +12,7 @@ For some time, I had the following in my [`~/.gitconfig`][1]:
 {% endhighlight %}
 
 I like keeping my branches tidy on the projects I work on and the more developers that are working on a project, the
-more branches are getting created, merged and delted all the time. The above Git config means that every time you
+more branches are getting created, merged and deleted all the time. The above Git config means that every time you
 fetch, Git will prune remote branches automatically, just like it would if you used `git fetch --prune`. This worked
 great and I thought I was being clever! :bowtie:
 
