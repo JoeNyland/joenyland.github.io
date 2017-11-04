@@ -1,27 +1,16 @@
-/* Bootstrap navbar customisations */
-.navbar-inverse {
+.navbar.navbar-default {
   .navbar-brand {
-    color: $red-light;
-    &:focus,
-    &:hover {
-      color: $white;
+    font-size: x-large;
+    color: $red-dark;
+    &:hover { color: $red-light; }
+  }
+  .navbar-nav li {
+    a { color: $blue-dark; }
+    a:focus, a:hover {
+      color: $blue-light;
+      background-color: $white;
     }
   }
-  .navbar-nav {
-    li {
-      a {
-        color: $blue-dark;
-        &.active {
-          color: $red-light;
-          &:hover {
-            color:  $grey-light;
-          }
-        }
-        &:focus,
-        &:hover {
-          color: $white;
-        }
-      }
-    }
-  }
+  background-color: $white;
+  border: none;
 }
