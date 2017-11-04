@@ -4,10 +4,9 @@ title:  "How to test a Jekyll site"
 excerpt: "Testing is great, so you should test your site as well as your code."
 ---
 
-I've [already talked about][5] this site and it's blog being run on GitHub Pages and that I use Jekyll. I'm only human 
-and whilst I can build a site as awesome and as fantastic as this, I'm only human. That means that I make mistakes, 
-just like everyone does. Testing the code that you write means that those mistakes get found and rectified, hopefully 
-before end users/readers/customers (whatever the context) see them in production.
+Whilst I can build a site as awesome and as fantastic as this, I'm only human. That means that I make mistakes, just
+like everyone does. Testing the code that you write means that those mistakes get found and rectified, hopefully before
+end users/readers/customers (whatever the context) see them in production.
 
 I'm a big fan of unit testing and integration testing my code, but I didn't know just how easy it was to test my 
 Jekyll based site until I read [this article][1]. I couldn't resist having a go at this myself and I've been able to 
@@ -74,5 +73,4 @@ code no longer worked with the latest versions of that gem.
 [2]: http://stackoverflow.com/questions/33582197/how-do-i-build-a-jekyll-site-from-rake-task-without-using-the-command-line
 [3]: /portfolio
 [4]: https://travis-ci.org
-[5]: {% post_url 2015-06-22-so_im_using_jekyll_to_run_my_blog %}
 [6]: https://github.com/JoeNyland/joenyland.github.io/blob/master/README.md
