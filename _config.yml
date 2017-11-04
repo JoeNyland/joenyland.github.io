@@ -1,6 +1,21 @@
 title: Joe Nyland
 author: Joe Nyland
 description: I'm a developer, geek, mountain biker and dog lover from Northwich, UK and this is my site!
+blog:
+  description: >
+    Hey, I'm Joe Nyland and this is my blog!
+    I'll try to write about interesting things related to DevOps,
+    coding, SysAdmin and other things that interest me as I fumble
+    my way through life, laughing and learning along the way.
+    I can't guarantee that everything will be interesting, but I'll try!
+permalink: /blog/:title/
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-paginate
 markdown: kramdown
 sass:
   style: compressed
+paginate: 8
+paginate_path: "/blog/page:num/"
