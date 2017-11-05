@@ -12,9 +12,11 @@ Postfix is my MTA of choice and I recently needed to setup a new box to send ema
 Unfortunately, it took longer than necessary to piece together all the bits of info I needed to successfully send email
 out, so I thought I would document it here.
 
-First, you need to ensure that you have setup a BT Email account. [Click here][bt-email] and create yourself an email
-address, if you've not already got one in your BT account. You need to make sure that you record a copy of the email
-and password that you create as this will be used by Postfix to authenticate with the BT smarthost.
+First, you need to ensure that you have setup a BT Email account.
+<a href="https://www.bt.com/appsconsumeraccount/secure/manageEmailAccounts.do" data-proofer-ignore>Click here</a> and
+create yourself an email address, if you've not already got one in your BT account. You need to make sure that you
+record a copy of the email and password that you create as this will be used by Postfix to authenticate with the BT
+smarthost.
 
 The following steps have been tested on CentOS 7 and Ubuntu 14.04 LTS so they should be pretty portable. I will assume
 that you have Postfix installed on your system. If you need to install Postfix, Google it :blush:
@@ -69,5 +71,3 @@ tail -f /var/log/maillog  # CentOS
 {% endhighlight %}
 
 Pipe up in the comments below if you have any issues or questions!
-
-[bt-email]: https://www.bt.com/appsconsumeraccount/secure/manageEmailAccounts.do
