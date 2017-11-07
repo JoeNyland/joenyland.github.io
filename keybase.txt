@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://joenyland.github.io
   * I am joenyland (https://keybase.io/joenyland) on keybase.
-  * I have a public key ASBR0wpTf0PCcahsXlWTh1GuWHlqfNlkaRFPrrx2I-tUxAo
+  * I have a public key with fingerprint 1F19 766C DDDB 4B03 6945  742B 25D2 3F62 B238 96C8
 
 To do so, I am signing this object:
 
@@ -14,16 +14,22 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "01014afae0039e2a6ba6dada44f0efcbcb463315333fb47e8804c19cf6c9f3e0f0a40a",
+      "fingerprint": "1f19766cdddb4b036945742b25d23f62b23896c8",
       "host": "keybase.io",
-      "kid": "012051d30a537f43c271a86c5e55938751ae58796a7cd96469114faebc7623eb54c40a",
+      "key_id": "25d23f62b23896c8",
+      "kid": "01014afae0039e2a6ba6dada44f0efcbcb463315333fb47e8804c19cf6c9f3e0f0a40a",
       "uid": "9be7e30d5775477b5a00ce54709e6a19",
       "username": "joenyland"
     },
     "merkle_root": {
-      "ctime": 1510013642,
-      "hash": "db0b580662b0c621b1934176801ef4c6f239251a8268b3b1cbbd00d961a6c213bda5be2f18c22b8902e1305ac0de950ec4be022830bdef6e133172d24350d38b",
-      "hash_meta": "bb1e5b71ecdbc9dab02e854ff2a31f5ac546e66d11d0eb70f8cb60a3ea635549",
-      "seqno": 1674500
+      "ctime": 1510054108,
+      "hash_meta": "bd5cbfe10f0889b6b461d9c415ff752c371e8150b86e9c6dab3df1a9c60564c0",
+      "seqno": 1675712
+    },
+    "revoke": {
+      "sig_ids": [
+        "6db9ec942c37c248a1a97d7759c3bab2199b28e226a12105ed5325615287d0d80f"
+      ]
     },
     "service": {
       "hostname": "joenyland.github.io",
@@ -32,20 +38,40 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "1.0.34"
-  },
-  "ctime": 1510013678,
-  "expire_in": 504576000,
-  "prev": "8cb7d1dd2074f4ad006ec35e9e6d277bb8984fa66e7d3afe9d772f14dd43c9a0",
-  "seqno": 5,
+  "ctime": 1510054116,
+  "expire_in": 157680000,
+  "prev": "f1913c7d92f06c1dc24ab12a456fd8f19a159b3f64457c4270c7005d5aa68bf4",
+  "seqno": 12,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUdMKU39DwnGobF5Vk4dRrlh5anzZZGkRT668diPrVMQKp3BheWxvYWTFA0x7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNGFmYWUwMDM5ZTJhNmJhNmRhZGE0NGYwZWZjYmNiNDYzMzE1MzMzZmI0N2U4ODA0YzE5Y2Y2YzlmM2UwZjBhNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTFkMzBhNTM3ZjQzYzI3MWE4NmM1ZTU1OTM4NzUxYWU1ODc5NmE3Y2Q5NjQ2OTExNGZhZWJjNzYyM2ViNTRjNDBhIiwidWlkIjoiOWJlN2UzMGQ1Nzc1NDc3YjVhMDBjZTU0NzA5ZTZhMTkiLCJ1c2VybmFtZSI6ImpvZW55bGFuZCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxMDAxMzY0MiwiaGFzaCI6ImRiMGI1ODA2NjJiMGM2MjFiMTkzNDE3NjgwMWVmNGM2ZjIzOTI1MWE4MjY4YjNiMWNiYmQwMGQ5NjFhNmMyMTNiZGE1YmUyZjE4YzIyYjg5MDJlMTMwNWFjMGRlOTUwZWM0YmUwMjI4MzBiZGVmNmUxMzMxNzJkMjQzNTBkMzhiIiwiaGFzaF9tZXRhIjoiYmIxZTViNzFlY2RiYzlkYWIwMmU4NTRmZjJhMzFmNWFjNTQ2ZTY2ZDExZDBlYjcwZjhjYjYwYTNlYTYzNTU0OSIsInNlcW5vIjoxNjc0NTAwfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImpvZW55bGFuZC5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNCJ9LCJjdGltZSI6MTUxMDAxMzY3OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI4Y2I3ZDFkZDIwNzRmNGFkMDA2ZWMzNWU5ZTZkMjc3YmI4OTg0ZmE2NmU3ZDNhZmU5ZDc3MmYxNGRkNDNjOWEwIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAv/6e1bnhnOdWJjq9wyZsNKmBYHfxTKEQiIaLG85BIFuT47Mg9eEb0If9iSmbfrWOq6AGZrU4U1sZP3D3kljKBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIb0B72jNNNXys/4EVkKrlHo0yvzkVkea848XRVebXOlo3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMLAAnicrVNtiBVVGL7X1Npr5kLYQiHVbLQVu5dzZs7HnLuVacGS/jFIwqtx93ze
+nXb3zm1m7q2ruy4VRiRYUYu5SlhiVgb9WaEVl7WlMsst6XPN0CATAimLQo1WOrMV
+hPSz+TPnzDzv8z7Pc97z7sLLMrnsG6OHvn58tLs5+9HkxlqmmH3x1AZHhKrhFDY4
+vXr2pfuUjpNSb6CcggMggIgbrgHwmHY5EZworjhCBmgjhRSIeB7EnucZgaj2fYAk
+ZNIQyYyngQEcAe60OyaolHVUjYJKYmmhgYwSIpVSAgngEYYwRa5wsXI9Q+zC8xmR
+vi3sCeO0wooTPNb5ILTf7KY0K+8/8P+z7tosHROaag8oTClGlArMAZDaLgHThEOW
+AmMdVXi/tuiHQl1p9PGKcgbbnX4d9fbpUhSGSZquTIIUAzEEACMIfOuQxz2lfp1w
+WyoUlsJoaAX4PhPEyoSKSQSxMRS70qNQ+xAD4RPNpLUkPGUgt0uACZLACon1w5XQ
+diAUU+haBZGuh706bR4HZZtb7BTWOkQJpiVDKaV0kc8tCVXWHpOe4MKFjAnX165r
+7bkQYK2w52ICsetTBZQPjPPgYNosqgdyljw9qEsDyJeDpKcm/jq1ahQmoQz7LKAn
+SapxIY0naVTTike0KP3NVRJBRdlpsRV1HcVBWLFmLPKS5CBpd/Sj1SDSpSBFYEp8
+YJ+0j65bSjti0JNUMdcAIqGyLrmALkeYGOXbvxxiJuz0IDt7ErkUSGqZFeac+MKg
+f0XpWp28bDltgBWe1CLtDE4eXDc3k81l5s+bk16jTK6p+Z/LteKWy2danhrA+/Kv
+PvfHN8+syh0v5Cbuv6FxdtfcMyOmPNW0aNcr0+cPjOa6w5Nj3y57tmtHfGH5wtYF
+LfdeKHb/PLz/vt1vlY9fr69bd6xx4Mf6UH76sSdaNpfKw+T0zL5fDrW0fpU/sb6j
+8wXedOPtD4wfa/ty09iYu+X1FbfSiWu2Tb33zuCO6Suf7CyuGv9iS3znr+cGDi6+
+acmaBUvDa1cffvODkdMdn328f9OZH5Zmp3Yfnbx6b+2lRepU8btzHTNbvx9tuvjT
+Fdtfe3vnxTuO3LX2tj1Hh87vPCJKyzuXtJ28avHWNXDe8+MDYfPLd3+++dMTbUPr
+P7n58NDvezeOBMvu6TqbbV3JPpx4v+vplb9NDBf/BDUUiIM=
+=LV6l
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -53,3 +79,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/joenyland
 
 ==================================================================
+
