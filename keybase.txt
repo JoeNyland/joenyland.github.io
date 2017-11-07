@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/joenyland
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joenyland.github.io
+  * I am joenyland (https://keybase.io/joenyland) on keybase.
+  * I have a public key ASBR0wpTf0PCcahsXlWTh1GuWHlqfNlkaRFPrrx2I-tUxAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014afae0039e2a6ba6dada44f0efcbcb463315333fb47e8804c19cf6c9f3e0f0a40a",
+      "host": "keybase.io",
+      "kid": "012051d30a537f43c271a86c5e55938751ae58796a7cd96469114faebc7623eb54c40a",
+      "uid": "9be7e30d5775477b5a00ce54709e6a19",
+      "username": "joenyland"
+    },
+    "merkle_root": {
+      "ctime": 1510013642,
+      "hash": "db0b580662b0c621b1934176801ef4c6f239251a8268b3b1cbbd00d961a6c213bda5be2f18c22b8902e1305ac0de950ec4be022830bdef6e133172d24350d38b",
+      "hash_meta": "bb1e5b71ecdbc9dab02e854ff2a31f5ac546e66d11d0eb70f8cb60a3ea635549",
+      "seqno": 1674500
+    },
+    "service": {
+      "hostname": "joenyland.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1510013678,
+  "expire_in": 504576000,
+  "prev": "8cb7d1dd2074f4ad006ec35e9e6d277bb8984fa66e7d3afe9d772f14dd43c9a0",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUdMKU39DwnGobF5Vk4dRrlh5anzZZGkRT668diPrVMQKp3BheWxvYWTFA0x7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNGFmYWUwMDM5ZTJhNmJhNmRhZGE0NGYwZWZjYmNiNDYzMzE1MzMzZmI0N2U4ODA0YzE5Y2Y2YzlmM2UwZjBhNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTFkMzBhNTM3ZjQzYzI3MWE4NmM1ZTU1OTM4NzUxYWU1ODc5NmE3Y2Q5NjQ2OTExNGZhZWJjNzYyM2ViNTRjNDBhIiwidWlkIjoiOWJlN2UzMGQ1Nzc1NDc3YjVhMDBjZTU0NzA5ZTZhMTkiLCJ1c2VybmFtZSI6ImpvZW55bGFuZCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxMDAxMzY0MiwiaGFzaCI6ImRiMGI1ODA2NjJiMGM2MjFiMTkzNDE3NjgwMWVmNGM2ZjIzOTI1MWE4MjY4YjNiMWNiYmQwMGQ5NjFhNmMyMTNiZGE1YmUyZjE4YzIyYjg5MDJlMTMwNWFjMGRlOTUwZWM0YmUwMjI4MzBiZGVmNmUxMzMxNzJkMjQzNTBkMzhiIiwiaGFzaF9tZXRhIjoiYmIxZTViNzFlY2RiYzlkYWIwMmU4NTRmZjJhMzFmNWFjNTQ2ZTY2ZDExZDBlYjcwZjhjYjYwYTNlYTYzNTU0OSIsInNlcW5vIjoxNjc0NTAwfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImpvZW55bGFuZC5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNCJ9LCJjdGltZSI6MTUxMDAxMzY3OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI4Y2I3ZDFkZDIwNzRmNGFkMDA2ZWMzNWU5ZTZkMjc3YmI4OTg0ZmE2NmU3ZDNhZmU5ZDc3MmYxNGRkNDNjOWEwIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAv/6e1bnhnOdWJjq9wyZsNKmBYHfxTKEQiIaLG85BIFuT47Mg9eEb0If9iSmbfrWOq6AGZrU4U1sZP3D3kljKBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIb0B72jNNNXys/4EVkKrlHo0yvzkVkea848XRVebXOlo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joenyland
+
+==================================================================
