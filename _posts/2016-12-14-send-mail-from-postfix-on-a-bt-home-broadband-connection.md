@@ -69,5 +69,3 @@ If you don't receive the test email, check `mailq` and the mail log file:
 tail -f /var/log/mail.log # Ubuntu/Debian
 tail -f /var/log/maillog  # CentOS
 {% endhighlight %}
-
-Pipe up in the comments below if you have any issues or questions!

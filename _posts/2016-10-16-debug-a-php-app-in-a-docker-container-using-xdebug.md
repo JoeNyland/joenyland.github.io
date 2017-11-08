@@ -147,9 +147,6 @@ I've thrown together a quick demo of this. The repo holding the source can be fo
 docker pull joenyland/php-web-app-debug-demo
 ```
 
-If you have any questions on the above, or if you've got a better way of doing this, please let me know in the comments
-below!
-
 ### Update
 
 Since writing this post, I've found that the issue around connecting back to the Docker host isn't possible out of the

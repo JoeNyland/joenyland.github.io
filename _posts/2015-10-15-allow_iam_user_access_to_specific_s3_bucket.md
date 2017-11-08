@@ -71,8 +71,5 @@ Google for help. If I need to Google how to do something with a service, then th
 is it? In Amazon's defence, AWS is humongous and usually their documentation is up to standard, so I can't get too 
 mad at them. :relaxed:
 
-Don't forget to chime in below in the comments section if this helps or if you're facing the same issue and this 
-doesn't work for you.
-
 [1]: https://twitter.com/JoeNyland
 [2]: https://aws.amazon.com/blogs/aws/new-managed-policies-for-aws-identity-access-management/
