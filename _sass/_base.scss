@@ -234,9 +234,17 @@ pre > code {
 }
 
 // Previous/Next buttons on blog posts
-.pager li>a {
-  background-color: $dark-mode-background-color;
-  @media screen and (prefers-color-scheme: light) {
-    background-color: $light-mode-background-color;
+.pager {
+  li>a, li>a:hover {
+    background-color: $dark-mode-background-color;
+    @media screen and (prefers-color-scheme: light) {
+      background-color: $light-mode-background-color;
+    }
+  }
+  .disabled>a, .disabled>a:hover {
+    background-color: $dark-mode-background-color;
+    @media screen and (prefers-color-scheme: light) {
+      background-color: $light-mode-background-color;
+    }
   }
 }
