@@ -1,0 +1,45 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.nav == 'blog' or page.layout == 'post' %}{{ page.title }} | Blog | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@JoeNyland" />
+    <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}"/>
+    <meta name="twitter:image" content="{{'/assets/img/favicon-32x32.png' | prepend: site.url}}" />
+
+    <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:image" content="{{'/assets/img/favicon-196x196.png' | prepend: site.url}}" />
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}"/>
+
+    <link rel="shortcut icon" href="{{'/assets/img/favicon.ico' | prepend: site.url}}">
+    <link rel="icon" type="image/png" href="{{'/assets/img/favicon-32x32.png' | prepend: site.url}}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{'/assets/img/favicon-16x16.png' | prepend: site.url}}" sizes="16x16">
+    <meta name="msapplication-TileColor" content="#323232">
+    <meta name="msapplication-TileImage" content="{{'/assets/img/mstile-150x150.png' | prepend: site.url}}">
+    <meta name="msapplication-config" content="{{'/assets/img/browserconfig.xml' | prepend: site.url}}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{'/assets/img/apple-touch-icon.png' | prepend: site.url}}">
+    <link rel="manifest" href="{{'/assets/img/manifest.json' | prepend: site.url}}">
+    <link rel="mask-icon" href="{{'/assets/img/safari-pinned-tab.svg' | prepend: site.url}}" color="#b14437">
+    <meta name="apple-mobile-web-app-title" content="Joe Nyland">
+    <meta name="application-name" content="Joe Nyland">
+    <meta name="theme-color" content="#d7d7d7">
+
+    {% include fonts.html %}
+    {% include css.html %}
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>

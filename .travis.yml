@@ -1,0 +1,13 @@
+language: ruby
+cache:
+  bundler: true
+  directories:
+    - $TRAVIS_BUILD_DIR/tmp/.htmlproofer    # https://github.com/gjtorikian/html-proofer/issues/381
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true    # Speeds up installation of html-proofer
+    - JEKYLL_SAFE=true
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev    # Required to avoid SSL errors

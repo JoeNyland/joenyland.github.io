@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+<link rel="stylesheet" href="/assets/css/main.min.css">
+
+{% if page.css %}
+    {% for stylesheet in page.css %}
+        <link rel="stylesheet" href="{{ stylesheet.href }}">
+    {% endfor %}
+{% endif %}
+
+{% if page.external_css %}
+    {% for stylesheet in page.external_css %}
+        <link rel="stylesheet" href="{{ stylesheet.href }}">
+    {% endfor %}
+{% endif %}
+

@@ -1,0 +1,20 @@
+// Avatar
+@mixin avatar($size) {
+  @include square($size);
+  @include radius($size/2);
+}
+
+.avatar {
+  background-image: url('/assets/img/avatar.png');
+  background-size:  cover;
+  display:          block;
+  // Adds some padding to the avatar
+  margin-top:    35px;
+  margin-bottom: 35px;
+}
+
+.avatar-xs { @include avatar(50px); }
+.avatar-sm { @include avatar(100px); }
+.avatar-md { @include avatar(150px); }
+.avatar-lg { @include avatar(200px); }
+.avatar-xl { @include avatar(250px); }
