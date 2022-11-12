@@ -15,10 +15,10 @@ and store them on a storage network like the one provided by [GitHub][github]. Y
 understanding on what Git LFS is [here][git-lfs]. It's really easy to install and setup - just follow the instructions
 on the site.
 
-I run my Jekyll site on GitHub Pages. When I found out how great Git LFS is, I naturally wanted to know if I could use
-Git LFS to store assets for my sites, such as Photoshop assets, large images, PDFs, etc. Through trial and error, I
-found that GitHub Pages does not allow you to serve assets from Git LFS in your GitHub Pages site, which is a little
-disappointing. :disappointed:
+Previously, [I've blogged about my site][github-pages-post] telling you all about how wonderful Jekyll is on
+GitHub Pages. When I found out how great Git LFS is, I naturally wanted to know if I could use Git LFS to store assets
+for my sites, such as Photoshop assets, large images, PDFs, etc. Through trial and error, I found that GitHub Pages
+does not allow you to serve assets from Git LFS in your GitHub Pages site, which is a little disappointing. :disappointed:
 
 I turned to Uncle Google to make sure that there wasn't a workaround for this that I hadn't thought of, but all I
 found was [this][github-issue]. So it seems ([from a GitHub employee][github-issue-comment]) that Git LFS is not
@@ -48,6 +48,7 @@ much time. Furthermore, hopefully GitHub will implement this feature sooner rath
 [git-lfs-repo]: https://github.com/github/git-lf
 [git-lfs]: https://git-lfs.github.com
 [github]: https://github.com
+[github-pages-post]: {% post_url 2015-06-22-so_im_using_jekyll_to_run_my_blog %}
 [github-issue]: https://github.com/github/git-lfs/issues/791
 [github-issue-comment]: https://github.com/github/git-lfs/issues/791#issuecomment-151318020
 [jess-hosman]: https://github.com/jhosman

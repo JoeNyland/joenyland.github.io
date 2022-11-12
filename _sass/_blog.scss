@@ -12,8 +12,24 @@
     margin: 20px auto 40px auto;
     display: block
   }
+  img.joe-leeds-ride, img.the-christie-charity, img.security-log-screenshot {
+    max-width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  img.the-christie-charity, img.map-of-route { max-width: 50%; }
+
+  @media screen and (max-width: 768px) {
+    img.joe-leeds-ride, img.the-christie-charity {
+      max-width: 100%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+
   .sidebar {
     .row.blog-description {margin-bottom:20px;}
     .widget-wrapper {margin-bottom: 25px;}
   }
+
 }
