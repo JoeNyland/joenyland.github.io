@@ -4,7 +4,7 @@ title: GitHub Pages with Git LFS
 excerpt: A word of warning, if you'd like to use Git LFS with GitHub Pages.
 ---
 
-[Recently][git-lfs-tweet], I decided to take another look at [Git LFS][git-lfs]. I was blown away by the simplicity of
+Recently, I decided to take another look at [Git LFS][git-lfs]. I was blown away by the simplicity of
 the extension to the already awesome Git VCS but also the ease of use of GitHub's implementation of the feature.
 
 <img id="git-lfs-graphic" src="/assets/img/posts/github-pages-with-git-lfs/git-lfs-graphic.gif"
@@ -13,7 +13,7 @@ the extension to the already awesome Git VCS but also the ease of use of GitHub'
 Git LFS allows you to store large like binary files, assets and other files that you don't want to clog up a Git repo
 and store them on a storage network like the one provided by [GitHub][github]. You can get a bit more of an
 understanding on what Git LFS is [here][git-lfs]. It's really easy to install and setup - just follow the instructions
-on the site. 
+on the site.
 
 I run my Jekyll site on GitHub Pages. When I found out how great Git LFS is, I naturally wanted to know if I could use
 Git LFS to store assets for my sites, such as Photoshop assets, large images, PDFs, etc. Through trial and error, I
@@ -45,7 +45,6 @@ This post is a little different from my recent posts as it's less of a tutorial/
 style post. Hopefully Google will index it and help others get to the conclusion I did, without having to waste too
 much time. Furthermore, hopefully GitHub will implement this feature sooner rather than later!
 
-[git-lfs-tweet]: https://twitter.com/JoeNyland/status/718732564882710529
 [git-lfs-repo]: https://github.com/github/git-lf
 [git-lfs]: https://git-lfs.github.com
 [github]: https://github.com

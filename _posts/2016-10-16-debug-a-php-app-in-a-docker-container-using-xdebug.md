@@ -14,9 +14,8 @@ It was so easy in fact, I began containerising all of my local development envir
 Docker more, allowing me to learn more as I went along.
 
 In next to no time, I'd containerised most of the apps that I work on and I'd even built several multi-container
-environments with Docker Compose (see [here][docker-compose-example-1] and [here][docker-compose-example-2]), which is
-a really cool tool! Unfortunately, I faced a small but annoying complication with Docker when I wanted to containerise
-a PHP app.
+environments with Docker Compose, which is a really cool tool! Unfortunately, I faced a small but annoying complication
+with Docker when I wanted to containerise a PHP app.
 
 I'm a big fan of the [JetBrains IDEs][jetbrains-ides], so my IDE of choice when working with PHP apps is
 [PhpStorm][phpstorm-site]. One of the features of PhpStorm is the integrated debugger, allowing you to debug your apps
@@ -24,22 +23,22 @@ right from within the code base.
 
 Usually, when setting a up a LAMP development environment, I'll setup [Xdebug][xdebug] too. Xdebug uses the DBGp
 protocol to provide interactive debug sessions. For a PHP web app, roughly speaking the process is this:
- 
+
  * Browser submits a request to the server (sometimes including a special GET parameter in the query string to start
  the debugging session)
  * The server (running PHP with the Xdebug module loaded) attempts to connect to the host running the IDE (usually port
  9000 TCP) where an Xdebug client is listening for connections.
  * The IDE responds with commands that instruct Xdebug to continue execution of the code and commands to interrupt the
  execution of code at predefined breakpoints which are easily set my the developer right inside the editor window.
- 
+
 The configuration required for Xdebug is something like this:
- 
+
 ```ini
 [xdebug]
 xdebug.remote_enable=On
 xdebug.remote_autostart=On
 ```
- 
+
 Usually when developing, the LAMP stack is running in a local environment on `localhost`. This means that when the
 request is received by the web server (we'll assume Apache here), Xdebug can simply connect back to `localhost` to the
 Xdebug client in the IDE.
@@ -49,7 +48,7 @@ the container and the host machine that's running Docker Machine. This means tha
 container, then open that site in my browser, the web server inside the container will see that the request originated
 from a host with an IP like `172.17.0.1` which is the IP address of the host (Mac in my case) on the virtual network
 stack that Docker runs on the host.
- 
+
 If we look back up to how Xdebug works, the Xdebug module will need to connect back to the IDE on `172.17.0.1`,
 using port 9000. Sadly, Docker for Mac doesn't currently allow access to the host on this IP address from within the
 container. This appears to be a known issue, mentioned [here][docker-for-mac-network-known-issues].
@@ -91,11 +90,11 @@ telnet 172.17.0.1 9000
 Trying 172.17.0.1...
 telnet: Unable to connect to remote host: Connection refused
 ```
-  
+
 We're left in a sticky situation: we need to connect back to the IDE running on the Docker host from Xdebug running
 inside the container, but there doesn't seem to be a way to access it. There are a couple of networking options that
 are available for running a container under, but none of them seem to alleviate this issue.
-  
+
 I was able to find that whilst Docker containers are unable to connect back to the host through the NATed interface
 (`172.17.x.x`), they are able to communicate with the host using the LAN IP of the host, which is usually a DHCP
 address issued by your home or office router/network infrastructure. For example, my Mac is running on my home network
@@ -140,7 +139,7 @@ docker run -it --rm --name php-demo -p 8080:80 --add-host="docker_host:192.168.1
 
 With that in place, you should be able to set some breakpoints in yur PHP code, tell PhpStorm to listen for debug
 connections, then request the site in your browser and be good to go!
- 
+
 I've thrown together a quick demo of this. The repo holding the source can be found [here][demo-repo] and you can pull a Docker image containing a working Xdebug setup from the [Docker Hub][docker-hub-demo-image] like so:
 
 ```bash
