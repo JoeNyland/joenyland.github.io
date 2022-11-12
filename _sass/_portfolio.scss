@@ -61,4 +61,21 @@
   .badges {
     margin-bottom: 10px;
   }
+
+  .panel {
+    background-color: $dark-mode-background-color;
+    @media screen and (prefers-color-scheme: light) {
+      background-color: $light-mode-background-color;
+    }
+    @media not screen and (prefers-color-scheme: light) {
+      &.panel-info {
+        border-color: $grey-light;
+      }
+      .panel-heading {
+        background-color: $blue-dark;
+        color: $white;
+        border-color: $grey-light;
+      }
+    }
+  }
 }

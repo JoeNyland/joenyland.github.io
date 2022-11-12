@@ -8,9 +8,15 @@
     a { color: $blue-dark; }
     a:focus, a:hover {
       color: $blue-light;
-      background-color: $white;
+      background-color: $dark-mode-background-color;
+      @media screen and (prefers-color-scheme: light) {
+        background-color: $light-mode-background-color;
+      }
     }
   }
-  background-color: $white;
+  background-color: $dark-mode-background-color;
   border: none;
+  @media screen and (prefers-color-scheme: light) {
+    background-color: $light-mode-background-color;
+  }
 }
